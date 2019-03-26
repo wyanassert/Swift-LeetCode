@@ -10,6 +10,7 @@
 		93122F56224A391100051AC5 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93122F55224A391100051AC5 /* main.swift */; };
 		93122F5D224A394400051AC5 /* 001_two_sum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93122F5C224A394400051AC5 /* 001_two_sum.swift */; };
 		93122F60224A3CCD00051AC5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93122F5F224A3CCD00051AC5 /* Foundation.framework */; };
+		93122F62224A5FDD00051AC5 /* 002_add_two_number.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93122F61224A5FDD00051AC5 /* 002_add_two_number.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,6 +30,7 @@
 		93122F55224A391100051AC5 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		93122F5C224A394400051AC5 /* 001_two_sum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 001_two_sum.swift; sourceTree = "<group>"; };
 		93122F5F224A3CCD00051AC5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		93122F61224A5FDD00051AC5 /* 002_add_two_number.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 002_add_two_number.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +67,7 @@
 			children = (
 				93122F55224A391100051AC5 /* main.swift */,
 				93122F5C224A394400051AC5 /* 001_two_sum.swift */,
+				93122F61224A5FDD00051AC5 /* 002_add_two_number.swift */,
 			);
 			path = "Swift-LeetCode";
 			sourceTree = "<group>";
@@ -134,6 +137,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93122F62224A5FDD00051AC5 /* 002_add_two_number.swift in Sources */,
 				93122F5D224A394400051AC5 /* 001_two_sum.swift in Sources */,
 				93122F56224A391100051AC5 /* main.swift in Sources */,
 			);

@@ -8,5 +8,6 @@
 
 import Foundation
 
-NSLog("%@", _01_two_sum().twoSum([2, 7, 11, 15], 9))
+//NSLog("%@", _01_two_sum().twoSum([2, 7, 11, 15], 9))
+_02_add_two_number().test()
 
