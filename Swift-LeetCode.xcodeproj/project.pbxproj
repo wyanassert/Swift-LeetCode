@@ -14,6 +14,7 @@
 		93122F64224A72BA00051AC5 /* 003_longest_substring_without_repeat_char.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93122F63224A72BA00051AC5 /* 003_longest_substring_without_repeat_char.swift */; };
 		93122F66224B239E00051AC5 /* 004_median_of_two_sorrted_arrays.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93122F65224B239D00051AC5 /* 004_median_of_two_sorrted_arrays.swift */; };
 		93122F68224B3BA600051AC5 /* 005_Longest_Palindromic_Substring.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93122F67224B3BA600051AC5 /* 005_Longest_Palindromic_Substring.swift */; };
+		93122F82224BD06600051AC5 /* 006_ZigZag_Conversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93122F81224BD06600051AC5 /* 006_ZigZag_Conversion.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -37,6 +38,7 @@
 		93122F63224A72BA00051AC5 /* 003_longest_substring_without_repeat_char.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 003_longest_substring_without_repeat_char.swift; sourceTree = "<group>"; };
 		93122F65224B239D00051AC5 /* 004_median_of_two_sorrted_arrays.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 004_median_of_two_sorrted_arrays.swift; sourceTree = "<group>"; };
 		93122F67224B3BA600051AC5 /* 005_Longest_Palindromic_Substring.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 005_Longest_Palindromic_Substring.swift; sourceTree = "<group>"; };
+		93122F81224BD06600051AC5 /* 006_ZigZag_Conversion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 006_ZigZag_Conversion.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 				93122F63224A72BA00051AC5 /* 003_longest_substring_without_repeat_char.swift */,
 				93122F65224B239D00051AC5 /* 004_median_of_two_sorrted_arrays.swift */,
 				93122F67224B3BA600051AC5 /* 005_Longest_Palindromic_Substring.swift */,
+				93122F81224BD06600051AC5 /* 006_ZigZag_Conversion.swift */,
 			);
 			path = "Swift-LeetCode";
 			sourceTree = "<group>";
@@ -148,6 +151,7 @@
 			files = (
 				93122F64224A72BA00051AC5 /* 003_longest_substring_without_repeat_char.swift in Sources */,
 				93122F68224B3BA600051AC5 /* 005_Longest_Palindromic_Substring.swift in Sources */,
+				93122F82224BD06600051AC5 /* 006_ZigZag_Conversion.swift in Sources */,
 				93122F62224A5FDD00051AC5 /* 002_add_two_number.swift in Sources */,
 				93122F5D224A394400051AC5 /* 001_two_sum.swift in Sources */,
 				93122F66224B239E00051AC5 /* 004_median_of_two_sorrted_arrays.swift in Sources */,
