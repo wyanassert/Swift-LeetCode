@@ -12,6 +12,7 @@
 		93122F60224A3CCD00051AC5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93122F5F224A3CCD00051AC5 /* Foundation.framework */; };
 		93122F62224A5FDD00051AC5 /* 002_add_two_number.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93122F61224A5FDD00051AC5 /* 002_add_two_number.swift */; };
 		93122F64224A72BA00051AC5 /* 003_longest_substring_without_repeat_char.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93122F63224A72BA00051AC5 /* 003_longest_substring_without_repeat_char.swift */; };
+		93122F66224B239E00051AC5 /* 004_median_of_two_sorrted_arrays.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93122F65224B239D00051AC5 /* 004_median_of_two_sorrted_arrays.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -33,6 +34,7 @@
 		93122F5F224A3CCD00051AC5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		93122F61224A5FDD00051AC5 /* 002_add_two_number.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 002_add_two_number.swift; sourceTree = "<group>"; };
 		93122F63224A72BA00051AC5 /* 003_longest_substring_without_repeat_char.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 003_longest_substring_without_repeat_char.swift; sourceTree = "<group>"; };
+		93122F65224B239D00051AC5 /* 004_median_of_two_sorrted_arrays.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 004_median_of_two_sorrted_arrays.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +73,7 @@
 				93122F5C224A394400051AC5 /* 001_two_sum.swift */,
 				93122F61224A5FDD00051AC5 /* 002_add_two_number.swift */,
 				93122F63224A72BA00051AC5 /* 003_longest_substring_without_repeat_char.swift */,
+				93122F65224B239D00051AC5 /* 004_median_of_two_sorrted_arrays.swift */,
 			);
 			path = "Swift-LeetCode";
 			sourceTree = "<group>";
@@ -143,6 +146,7 @@
 				93122F64224A72BA00051AC5 /* 003_longest_substring_without_repeat_char.swift in Sources */,
 				93122F62224A5FDD00051AC5 /* 002_add_two_number.swift in Sources */,
 				93122F5D224A394400051AC5 /* 001_two_sum.swift in Sources */,
+				93122F66224B239E00051AC5 /* 004_median_of_two_sorrted_arrays.swift in Sources */,
 				93122F56224A391100051AC5 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
