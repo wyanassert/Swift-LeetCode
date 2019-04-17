@@ -16,6 +16,7 @@
 		93122F68224B3BA600051AC5 /* 005_Longest_Palindromic_Substring.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93122F67224B3BA600051AC5 /* 005_Longest_Palindromic_Substring.swift */; };
 		93122F82224BD06600051AC5 /* 006_ZigZag_Conversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93122F81224BD06600051AC5 /* 006_ZigZag_Conversion.swift */; };
 		93122F84224BD53200051AC5 /* 007_Revease_Integer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93122F83224BD53200051AC5 /* 007_Revease_Integer.swift */; };
+		93122F86224BD75D00051AC5 /* 008_String_to_Interger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93122F85224BD75D00051AC5 /* 008_String_to_Interger.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -41,6 +42,7 @@
 		93122F67224B3BA600051AC5 /* 005_Longest_Palindromic_Substring.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 005_Longest_Palindromic_Substring.swift; sourceTree = "<group>"; };
 		93122F81224BD06600051AC5 /* 006_ZigZag_Conversion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 006_ZigZag_Conversion.swift; sourceTree = "<group>"; };
 		93122F83224BD53200051AC5 /* 007_Revease_Integer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 007_Revease_Integer.swift; sourceTree = "<group>"; };
+		93122F85224BD75D00051AC5 /* 008_String_to_Interger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 008_String_to_Interger.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 				93122F67224B3BA600051AC5 /* 005_Longest_Palindromic_Substring.swift */,
 				93122F81224BD06600051AC5 /* 006_ZigZag_Conversion.swift */,
 				93122F83224BD53200051AC5 /* 007_Revease_Integer.swift */,
+				93122F85224BD75D00051AC5 /* 008_String_to_Interger.swift */,
 			);
 			path = "Swift-LeetCode";
 			sourceTree = "<group>";
@@ -152,6 +155,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93122F86224BD75D00051AC5 /* 008_String_to_Interger.swift in Sources */,
 				93122F64224A72BA00051AC5 /* 003_longest_substring_without_repeat_char.swift in Sources */,
 				93122F68224B3BA600051AC5 /* 005_Longest_Palindromic_Substring.swift in Sources */,
 				93122F84224BD53200051AC5 /* 007_Revease_Integer.swift in Sources */,
