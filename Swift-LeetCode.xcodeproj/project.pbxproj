@@ -19,6 +19,7 @@
 		93122F86224BD75D00051AC5 /* 008_String_to_Interger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93122F85224BD75D00051AC5 /* 008_String_to_Interger.swift */; };
 		93EE2C2A226734CA00244540 /* 009_Palindrome_Number.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93EE2C29226734CA00244540 /* 009_Palindrome_Number.swift */; };
 		93EE2C2C22673AC300244540 /* 010_Regular_Expression_Matching.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93EE2C2B22673AC300244540 /* 010_Regular_Expression_Matching.swift */; };
+		93EE2C2E2268290C00244540 /* 011_Container_With_Most_Water.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93EE2C2D2268290C00244540 /* 011_Container_With_Most_Water.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -47,6 +48,7 @@
 		93122F85224BD75D00051AC5 /* 008_String_to_Interger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 008_String_to_Interger.swift; sourceTree = "<group>"; };
 		93EE2C29226734CA00244540 /* 009_Palindrome_Number.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 009_Palindrome_Number.swift; sourceTree = "<group>"; };
 		93EE2C2B22673AC300244540 /* 010_Regular_Expression_Matching.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 010_Regular_Expression_Matching.swift; sourceTree = "<group>"; };
+		93EE2C2D2268290C00244540 /* 011_Container_With_Most_Water.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 011_Container_With_Most_Water.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +94,7 @@
 				93122F85224BD75D00051AC5 /* 008_String_to_Interger.swift */,
 				93EE2C29226734CA00244540 /* 009_Palindrome_Number.swift */,
 				93EE2C2B22673AC300244540 /* 010_Regular_Expression_Matching.swift */,
+				93EE2C2D2268290C00244540 /* 011_Container_With_Most_Water.swift */,
 			);
 			path = "Swift-LeetCode";
 			sourceTree = "<group>";
@@ -166,6 +169,7 @@
 				93122F68224B3BA600051AC5 /* 005_Longest_Palindromic_Substring.swift in Sources */,
 				93EE2C2A226734CA00244540 /* 009_Palindrome_Number.swift in Sources */,
 				93122F84224BD53200051AC5 /* 007_Revease_Integer.swift in Sources */,
+				93EE2C2E2268290C00244540 /* 011_Container_With_Most_Water.swift in Sources */,
 				93122F82224BD06600051AC5 /* 006_ZigZag_Conversion.swift in Sources */,
 				93122F62224A5FDD00051AC5 /* 002_add_two_number.swift in Sources */,
 				93122F5D224A394400051AC5 /* 001_two_sum.swift in Sources */,
