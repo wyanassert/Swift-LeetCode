@@ -87,3 +87,13 @@ import Foundation
 //print(_12_Integer_to_Roman().intToRoman(900), "CM")
 //print(_12_Integer_to_Roman().intToRoman(1437), "MCDXXXVII")
 //print(_12_Integer_to_Roman().intToRoman(1994), "MCMXCIV")
+
+print(_13_Roman_to_Integer().romanToInt("III"), 3)
+print(_13_Roman_to_Integer().romanToInt("IV"), 4)
+print(_13_Roman_to_Integer().romanToInt("IX"), 9)
+print(_13_Roman_to_Integer().romanToInt("XLV"), 45)
+print(_13_Roman_to_Integer().romanToInt("LVIII"), 58)
+print(_13_Roman_to_Integer().romanToInt("XCIX"), 99)
+print(_13_Roman_to_Integer().romanToInt("CM"), 900)
+print(_13_Roman_to_Integer().romanToInt("MCDXXXVII"), 1437)
+print(_13_Roman_to_Integer().romanToInt("MCMXCIV"), 1994)
