@@ -57,6 +57,19 @@ import Foundation
 //print(_08_String_to_Interger().myAtoi("-91283472332"), -2147483648)
 //print(_08_String_to_Interger().myAtoi("-2147483647"), -2147483647)
 
-print(_09_Palindrome_Number().isPalindrome(121), true)
-print(_09_Palindrome_Number().isPalindrome(-121), false)
-print(_09_Palindrome_Number().isPalindrome(10), false)
+//print(_09_Palindrome_Number().isPalindrome(121), true)
+//print(_09_Palindrome_Number().isPalindrome(-121), false)
+//print(_09_Palindrome_Number().isPalindrome(10), false)
+
+
+print(_10_Regular_Expression_Matching().isMatch("", ""), true)
+print(_10_Regular_Expression_Matching().isMatch("aa", ""), false)
+print(_10_Regular_Expression_Matching().isMatch("", "aa"), false)
+print(_10_Regular_Expression_Matching().isMatch("", "a*"), true)
+print(_10_Regular_Expression_Matching().isMatch("", "a*b*"), true)
+print(_10_Regular_Expression_Matching().isMatch("aa", "a"), false)
+print(_10_Regular_Expression_Matching().isMatch("aa", "a*"), true)
+print(_10_Regular_Expression_Matching().isMatch("ab", ".*"), true)
+print(_10_Regular_Expression_Matching().isMatch("aaa", "aaaa"), false)
+print(_10_Regular_Expression_Matching().isMatch("aab", "c*a*b"), true)
+print(_10_Regular_Expression_Matching().isMatch("mississippi", "mis*is*p*."), false)

@@ -18,6 +18,7 @@
 		93122F84224BD53200051AC5 /* 007_Revease_Integer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93122F83224BD53200051AC5 /* 007_Revease_Integer.swift */; };
 		93122F86224BD75D00051AC5 /* 008_String_to_Interger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93122F85224BD75D00051AC5 /* 008_String_to_Interger.swift */; };
 		93EE2C2A226734CA00244540 /* 009_Palindrome_Number.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93EE2C29226734CA00244540 /* 009_Palindrome_Number.swift */; };
+		93EE2C2C22673AC300244540 /* 010_Regular_Expression_Matching.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93EE2C2B22673AC300244540 /* 010_Regular_Expression_Matching.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -45,6 +46,7 @@
 		93122F83224BD53200051AC5 /* 007_Revease_Integer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 007_Revease_Integer.swift; sourceTree = "<group>"; };
 		93122F85224BD75D00051AC5 /* 008_String_to_Interger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 008_String_to_Interger.swift; sourceTree = "<group>"; };
 		93EE2C29226734CA00244540 /* 009_Palindrome_Number.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 009_Palindrome_Number.swift; sourceTree = "<group>"; };
+		93EE2C2B22673AC300244540 /* 010_Regular_Expression_Matching.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 010_Regular_Expression_Matching.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +91,7 @@
 				93122F83224BD53200051AC5 /* 007_Revease_Integer.swift */,
 				93122F85224BD75D00051AC5 /* 008_String_to_Interger.swift */,
 				93EE2C29226734CA00244540 /* 009_Palindrome_Number.swift */,
+				93EE2C2B22673AC300244540 /* 010_Regular_Expression_Matching.swift */,
 			);
 			path = "Swift-LeetCode";
 			sourceTree = "<group>";
@@ -168,6 +171,7 @@
 				93122F5D224A394400051AC5 /* 001_two_sum.swift in Sources */,
 				93122F66224B239E00051AC5 /* 004_median_of_two_sorrted_arrays.swift in Sources */,
 				93122F56224A391100051AC5 /* main.swift in Sources */,
+				93EE2C2C22673AC300244540 /* 010_Regular_Expression_Matching.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
