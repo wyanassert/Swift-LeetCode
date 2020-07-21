@@ -119,6 +119,9 @@ import Foundation
 //var arr27_1 = [3, 2, 2, 3]
 //print(_27_Remove_Element().removeElement(&arr27_1, 3))
 
+print(_34_Find_First_and_Last_Position_of_Element_in_Sorted_Array().searchRange([5,7,7,8,8,10], 8))
+print(_34_Find_First_and_Last_Position_of_Element_in_Sorted_Array().searchRange([5,7,7,8,8,10], 6))
+
 //print(_66_Plus_One().plusOne([1, 2, 3]))
 //print(_66_Plus_One().plusOne([4, 3, 2, 1]))
 //print(_66_Plus_One().plusOne([9]))
@@ -126,8 +129,8 @@ import Foundation
 //print(_66_Plus_One().plusOne([9, 9, 9]))
 //print(_66_Plus_One().plusOne([6,1,4,5,3,9,0,1,9,5,1,8,6,7,0,5,5,4,3]))
 
-print(_74_Search_a_2D_Matrix().searchMatrix([[1,  3,  5,  7], [10, 11, 16, 20], [23, 30, 34, 50]], 3))
-print(_74_Search_a_2D_Matrix().searchMatrix([[1,  3,  5,  7], [10, 11, 16, 20], [23, 30, 34, 50]], 13))
+//print(_74_Search_a_2D_Matrix().searchMatrix([[1,  3,  5,  7], [10, 11, 16, 20], [23, 30, 34, 50]], 3))
+//print(_74_Search_a_2D_Matrix().searchMatrix([[1,  3,  5,  7], [10, 11, 16, 20], [23, 30, 34, 50]], 13))
 
 //var arr80_1 = [1, 2, 2, 2, 3, 3]
 //print(_80_Remove_Duplicates_from_Sorted_Array_2().removeDuplicates(&arr80_1))
