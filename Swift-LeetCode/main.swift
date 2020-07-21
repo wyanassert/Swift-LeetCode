@@ -108,9 +108,16 @@ import Foundation
 //var arr27_1 = [3, 2, 2, 3]
 //print(_27_Remove_Element().removeElement(&arr27_1, 3))
 
+print(_66_Plus_One().plusOne([1, 2, 3]))
+print(_66_Plus_One().plusOne([4, 3, 2, 1]))
+print(_66_Plus_One().plusOne([9]))
+print(_66_Plus_One().plusOne([9, 9]))
+print(_66_Plus_One().plusOne([9, 9, 9]))
+print(_66_Plus_One().plusOne([6,1,4,5,3,9,0,1,9,5,1,8,6,7,0,5,5,4,3]))
+
 //var arr80_1 = [1, 2, 2, 2, 3, 3]
 //print(_80_Remove_Duplicates_from_Sorted_Array_2().removeDuplicates(&arr80_1))
 //print(arr80_1)
-var arr80_2 = [0,0,1,1,1,1,2,3,3]
-print(_80_Remove_Duplicates_from_Sorted_Array_2().removeDuplicates(&arr80_2))
-print(arr80_2)
+//var arr80_2 = [0,0,1,1,1,1,2,3,3]
+//print(_80_Remove_Duplicates_from_Sorted_Array_2().removeDuplicates(&arr80_2))
+//print(arr80_2)
