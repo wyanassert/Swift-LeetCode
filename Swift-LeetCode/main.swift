@@ -106,11 +106,11 @@ import Foundation
 
 //print(_16_3Num_closest().threeSumClosest([-1,2,1,-4], 1))
 
-print(_18_4Sum().fourSum([1, 0, -1, 0, -2, 2], 0))
-print(_18_4Sum().fourSum([], 0))
-print(_18_4Sum().fourSum([0, 0, 0, 0], 0))
-print(_18_4Sum().fourSum([-3,-2,-1,0,0,1,2,3], 0))
-print(_18_4Sum().fourSum([-5,-4,-3,-2,-1,0,0,1,2,3,4,5], 0))
+//print(_18_4Sum().fourSum([1, 0, -1, 0, -2, 2], 0))
+//print(_18_4Sum().fourSum([], 0))
+//print(_18_4Sum().fourSum([0, 0, 0, 0], 0))
+//print(_18_4Sum().fourSum([-3,-2,-1,0,0,1,2,3], 0))
+//print(_18_4Sum().fourSum([-5,-4,-3,-2,-1,0,0,1,2,3,4,5], 0))
 
 //var arr26_1 = [1, 2, 2, 3]
 //print(_26_Remove_Duplicates_from_Sorted_Array().removeDuplicates(&arr26_1))
@@ -151,3 +151,15 @@ print(_18_4Sum().fourSum([-5,-4,-3,-2,-1,0,0,1,2,3,4,5], 0))
 //print(_119_Pascals_Triangle_2().getRow(3))
 //print(_119_Pascals_Triangle_2().getRow(5))
 //print(_119_Pascals_Triangle_2().getRow(33))
+
+print(_153_Find_Minimum_in_Rotated_Sorted_Array().findMin([3,4,5,1,2]))
+print(_153_Find_Minimum_in_Rotated_Sorted_Array().findMin([4,5,6,7,1,2,3]))
+print(_153_Find_Minimum_in_Rotated_Sorted_Array().findMin([1,2]))
+print(_153_Find_Minimum_in_Rotated_Sorted_Array().findMin([2,1]))
+
+//print(_154_Find_Minimum_in_Rotated_Sorted_Array_2().findMin([3,4,5,1,2]))
+//print(_154_Find_Minimum_in_Rotated_Sorted_Array_2().findMin([4,5,6,7,1,2,3]))
+//print(_154_Find_Minimum_in_Rotated_Sorted_Array_2().findMin([4,5,6,1,2,3,4]))
+//print(_154_Find_Minimum_in_Rotated_Sorted_Array_2().findMin([3,3,3,1]))
+//print(_154_Find_Minimum_in_Rotated_Sorted_Array_2().findMin([1,3,5]))
+//print(_154_Find_Minimum_in_Rotated_Sorted_Array_2().findMin([10,1,10,10,10]))
