@@ -126,6 +126,9 @@ import Foundation
 //print(_66_Plus_One().plusOne([9, 9, 9]))
 //print(_66_Plus_One().plusOne([6,1,4,5,3,9,0,1,9,5,1,8,6,7,0,5,5,4,3]))
 
+print(_74_Search_a_2D_Matrix().searchMatrix([[1,  3,  5,  7], [10, 11, 16, 20], [23, 30, 34, 50]], 3))
+print(_74_Search_a_2D_Matrix().searchMatrix([[1,  3,  5,  7], [10, 11, 16, 20], [23, 30, 34, 50]], 13))
+
 //var arr80_1 = [1, 2, 2, 2, 3, 3]
 //print(_80_Remove_Duplicates_from_Sorted_Array_2().removeDuplicates(&arr80_1))
 //print(arr80_1)
@@ -138,8 +141,9 @@ import Foundation
 //print(_84_Largest_Rectangle_in_Histogram().largestRectangleArea([2, 1, 2]))
 //print(_84_Largest_Rectangle_in_Histogram().largestRectangleArea([2,1,5,6,2,3]))
 
-print(_85_Maximal_Rectangle().maximalRectangle([["1","0","1","0","0"],["1","0","1","1","1"],["1","1","1","1","1"],["1","0","0","1","0"]]))
-print(_85_Maximal_Rectangle().maximalRectangle([]))
+//print(_85_Maximal_Rectangle().maximalRectangle([["1","0","1","0","0"],["1","0","1","1","1"],["1","1","1","1","1"],["1","0","0","1","0"]]))
+//print(_85_Maximal_Rectangle().maximalRectangle([]))
+
 //var arr88_1 = [1,2,3,0,0,0]
 //var arr88_2 = [2, 5, 6]
 //_88_Merge_Sorted_Array().merge(&arr88_1, 3, arr88_2, 3)
