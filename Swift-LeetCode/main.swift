@@ -119,8 +119,13 @@ import Foundation
 //var arr27_1 = [3, 2, 2, 3]
 //print(_27_Remove_Element().removeElement(&arr27_1, 3))
 
-print(_34_Find_First_and_Last_Position_of_Element_in_Sorted_Array().searchRange([5,7,7,8,8,10], 8))
-print(_34_Find_First_and_Last_Position_of_Element_in_Sorted_Array().searchRange([5,7,7,8,8,10], 6))
+//print(_34_Find_First_and_Last_Position_of_Element_in_Sorted_Array().searchRange([5,7,7,8,8,10], 8))
+//print(_34_Find_First_and_Last_Position_of_Element_in_Sorted_Array().searchRange([5,7,7,8,8,10], 6))
+
+//print(_35_Search_Insert_Position().searchInsert([1,3,5,6], 5))
+//print(_35_Search_Insert_Position().searchInsert([1,3,5,6], 2))
+//print(_35_Search_Insert_Position().searchInsert([1,3,5,6], 7))
+//print(_35_Search_Insert_Position().searchInsert([1,3,5,6], 0))
 
 //print(_66_Plus_One().plusOne([1, 2, 3]))
 //print(_66_Plus_One().plusOne([4, 3, 2, 1]))
@@ -177,3 +182,11 @@ print(_34_Find_First_and_Last_Position_of_Element_in_Sorted_Array().searchRange(
 //print(_154_Find_Minimum_in_Rotated_Sorted_Array_2().findMin([3,3,3,1]))
 //print(_154_Find_Minimum_in_Rotated_Sorted_Array_2().findMin([1,3,5]))
 //print(_154_Find_Minimum_in_Rotated_Sorted_Array_2().findMin([10,1,10,10,10]))
+
+//print(_162_Find_Peak_Element().findPeakElement([3,4,3,2,1]))
+//print(_162_Find_Peak_Element().findPeakElement([1,2,3,1]))
+//print(_162_Find_Peak_Element().findPeakElement([1,2,1,3,5,6,4]))
+//print(_162_Find_Peak_Element().findPeakElement([1]))
+//print(_162_Find_Peak_Element().findPeakElement([2, 1]))
+//print(_162_Find_Peak_Element().findPeakElement([]))
+//print(_162_Find_Peak_Element().findPeakElement([0,1,3]))
