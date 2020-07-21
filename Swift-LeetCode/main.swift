@@ -133,6 +133,13 @@ import Foundation
 //print(_80_Remove_Duplicates_from_Sorted_Array_2().removeDuplicates(&arr80_2))
 //print(arr80_2)
 
+//print(_84_Largest_Rectangle_in_Histogram().largestRectangleArea([1]))
+//print(_84_Largest_Rectangle_in_Histogram().largestRectangleArea([1, 2]))
+//print(_84_Largest_Rectangle_in_Histogram().largestRectangleArea([2, 1, 2]))
+//print(_84_Largest_Rectangle_in_Histogram().largestRectangleArea([2,1,5,6,2,3]))
+
+print(_85_Maximal_Rectangle().maximalRectangle([["1","0","1","0","0"],["1","0","1","1","1"],["1","1","1","1","1"],["1","0","0","1","0"]]))
+print(_85_Maximal_Rectangle().maximalRectangle([]))
 //var arr88_1 = [1,2,3,0,0,0]
 //var arr88_2 = [2, 5, 6]
 //_88_Merge_Sorted_Array().merge(&arr88_1, 3, arr88_2, 3)
@@ -152,10 +159,10 @@ import Foundation
 //print(_119_Pascals_Triangle_2().getRow(5))
 //print(_119_Pascals_Triangle_2().getRow(33))
 
-print(_153_Find_Minimum_in_Rotated_Sorted_Array().findMin([3,4,5,1,2]))
-print(_153_Find_Minimum_in_Rotated_Sorted_Array().findMin([4,5,6,7,1,2,3]))
-print(_153_Find_Minimum_in_Rotated_Sorted_Array().findMin([1,2]))
-print(_153_Find_Minimum_in_Rotated_Sorted_Array().findMin([2,1]))
+//print(_153_Find_Minimum_in_Rotated_Sorted_Array().findMin([3,4,5,1,2]))
+//print(_153_Find_Minimum_in_Rotated_Sorted_Array().findMin([4,5,6,7,1,2,3]))
+//print(_153_Find_Minimum_in_Rotated_Sorted_Array().findMin([1,2]))
+//print(_153_Find_Minimum_in_Rotated_Sorted_Array().findMin([2,1]))
 
 //print(_154_Find_Minimum_in_Rotated_Sorted_Array_2().findMin([3,4,5,1,2]))
 //print(_154_Find_Minimum_in_Rotated_Sorted_Array_2().findMin([4,5,6,7,1,2,3]))
