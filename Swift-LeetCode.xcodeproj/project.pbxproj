@@ -24,6 +24,11 @@
 		931B1A7224C69B9600E79991 /* 118_Pascals_Triangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931B1A7124C69B9600E79991 /* 118_Pascals_Triangle.swift */; };
 		931B1A7424C69E8400E79991 /* 119_Pascals_Triangle_2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931B1A7324C69E8400E79991 /* 119_Pascals_Triangle_2.swift */; };
 		931B1A7624C6A9F900E79991 /* 088_Merge_Sorted_Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931B1A7524C6A9F900E79991 /* 088_Merge_Sorted_Array.swift */; };
+		931B1A7824C6ADD400E79991 /* 015_3Sum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931B1A7724C6ADD400E79991 /* 015_3Sum.swift */; };
+		931B1A7A24C6C51C00E79991 /* 016_3Num_closest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931B1A7924C6C51C00E79991 /* 016_3Num_closest.swift */; };
+		931B1A7C24C6CC6800E79991 /* 018_4Sum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931B1A7B24C6CC6800E79991 /* 018_4Sum.swift */; };
+		931B1A7E24C6EFB400E79991 /* 153_Find_Minimum_in_Rotated_Sorted_Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931B1A7D24C6EFB400E79991 /* 153_Find_Minimum_in_Rotated_Sorted_Array.swift */; };
+		931B1A8024C6EFD400E79991 /* 154_Find_Minimum_in_Rotated_Sorted_Array_2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931B1A7F24C6EFD400E79991 /* 154_Find_Minimum_in_Rotated_Sorted_Array_2.swift */; };
 		9347D29D22684C43002C8D7C /* 012_Integer_to_Roman.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9347D29C22684C43002C8D7C /* 012_Integer_to_Roman.swift */; };
 		9347D2AE22688B0D002C8D7C /* 013_Roman_to_Integer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9347D2AD22688B0D002C8D7C /* 013_Roman_to_Integer.swift */; };
 		9347D2B022688E43002C8D7C /* 014_Longest_Common_Prefix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9347D2AF22688E43002C8D7C /* 014_Longest_Common_Prefix.swift */; };
@@ -63,6 +68,11 @@
 		931B1A7124C69B9600E79991 /* 118_Pascals_Triangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 118_Pascals_Triangle.swift; sourceTree = "<group>"; };
 		931B1A7324C69E8400E79991 /* 119_Pascals_Triangle_2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 119_Pascals_Triangle_2.swift; sourceTree = "<group>"; };
 		931B1A7524C6A9F900E79991 /* 088_Merge_Sorted_Array.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 088_Merge_Sorted_Array.swift; sourceTree = "<group>"; };
+		931B1A7724C6ADD400E79991 /* 015_3Sum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 015_3Sum.swift; sourceTree = "<group>"; };
+		931B1A7924C6C51C00E79991 /* 016_3Num_closest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 016_3Num_closest.swift; sourceTree = "<group>"; };
+		931B1A7B24C6CC6800E79991 /* 018_4Sum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 018_4Sum.swift; sourceTree = "<group>"; };
+		931B1A7D24C6EFB400E79991 /* 153_Find_Minimum_in_Rotated_Sorted_Array.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 153_Find_Minimum_in_Rotated_Sorted_Array.swift; sourceTree = "<group>"; };
+		931B1A7F24C6EFD400E79991 /* 154_Find_Minimum_in_Rotated_Sorted_Array_2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 154_Find_Minimum_in_Rotated_Sorted_Array_2.swift; sourceTree = "<group>"; };
 		9347D29C22684C43002C8D7C /* 012_Integer_to_Roman.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 012_Integer_to_Roman.swift; sourceTree = "<group>"; };
 		9347D2AD22688B0D002C8D7C /* 013_Roman_to_Integer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 013_Roman_to_Integer.swift; sourceTree = "<group>"; };
 		9347D2AF22688E43002C8D7C /* 014_Longest_Common_Prefix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 014_Longest_Common_Prefix.swift; sourceTree = "<group>"; };
@@ -118,6 +128,9 @@
 				9347D29C22684C43002C8D7C /* 012_Integer_to_Roman.swift */,
 				9347D2AD22688B0D002C8D7C /* 013_Roman_to_Integer.swift */,
 				9347D2AF22688E43002C8D7C /* 014_Longest_Common_Prefix.swift */,
+				931B1A7724C6ADD400E79991 /* 015_3Sum.swift */,
+				931B1A7924C6C51C00E79991 /* 016_3Num_closest.swift */,
+				931B1A7B24C6CC6800E79991 /* 018_4Sum.swift */,
 				931B1A6B24C570D700E79991 /* 026_Remove_Duplicates_from_Sorted_Array.swift */,
 				931B1A6924C56D2D00E79991 /* 027_Remove_Element.swift */,
 				931B1A6F24C694C100E79991 /* 066_Plus_One.swift */,
@@ -125,6 +138,8 @@
 				931B1A7524C6A9F900E79991 /* 088_Merge_Sorted_Array.swift */,
 				931B1A7124C69B9600E79991 /* 118_Pascals_Triangle.swift */,
 				931B1A7324C69E8400E79991 /* 119_Pascals_Triangle_2.swift */,
+				931B1A7D24C6EFB400E79991 /* 153_Find_Minimum_in_Rotated_Sorted_Array.swift */,
+				931B1A7F24C6EFD400E79991 /* 154_Find_Minimum_in_Rotated_Sorted_Array_2.swift */,
 			);
 			path = "Swift-LeetCode";
 			sourceTree = "<group>";
@@ -194,9 +209,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				931B1A7824C6ADD400E79991 /* 015_3Sum.swift in Sources */,
 				931B1A6E24C57F0100E79991 /* 080_Remove_Duplicates_from_Sorted_Array_2.swift in Sources */,
 				93122F86224BD75D00051AC5 /* 008_String_to_Interger.swift in Sources */,
 				93122F64224A72BA00051AC5 /* 003_longest_substring_without_repeat_char.swift in Sources */,
+				931B1A7C24C6CC6800E79991 /* 018_4Sum.swift in Sources */,
 				931B1A6A24C56D2D00E79991 /* 027_Remove_Element.swift in Sources */,
 				93122F68224B3BA600051AC5 /* 005_Longest_Palindromic_Substring.swift in Sources */,
 				93EE2C2A226734CA00244540 /* 009_Palindrome_Number.swift in Sources */,
@@ -205,8 +222,11 @@
 				9347D2B022688E43002C8D7C /* 014_Longest_Common_Prefix.swift in Sources */,
 				931B1A7024C694C100E79991 /* 066_Plus_One.swift in Sources */,
 				93122F84224BD53200051AC5 /* 007_Revease_Integer.swift in Sources */,
+				931B1A7E24C6EFB400E79991 /* 153_Find_Minimum_in_Rotated_Sorted_Array.swift in Sources */,
 				931B1A7424C69E8400E79991 /* 119_Pascals_Triangle_2.swift in Sources */,
 				93EE2C2E2268290C00244540 /* 011_Container_With_Most_Water.swift in Sources */,
+				931B1A7A24C6C51C00E79991 /* 016_3Num_closest.swift in Sources */,
+				931B1A8024C6EFD400E79991 /* 154_Find_Minimum_in_Rotated_Sorted_Array_2.swift in Sources */,
 				9347D2AE22688B0D002C8D7C /* 013_Roman_to_Integer.swift in Sources */,
 				93122F82224BD06600051AC5 /* 006_ZigZag_Conversion.swift in Sources */,
 				93122F62224A5FDD00051AC5 /* 002_add_two_number.swift in Sources */,

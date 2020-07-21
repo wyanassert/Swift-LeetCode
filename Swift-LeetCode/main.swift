@@ -101,6 +101,17 @@ import Foundation
 //print(_14_Longest_Common_Prefix().longestCommonPrefix(["flower","flow","flight"]), "fl");
 //print(_14_Longest_Common_Prefix().longestCommonPrefix(["dog","racecar","car"]), "");
 
+//print(_15_3Sum().threeSum([-1, 0, 1, 2, -1, -4]))
+//print(_15_3Sum().threeSum([0, 0, 0]))
+
+//print(_16_3Num_closest().threeSumClosest([-1,2,1,-4], 1))
+
+print(_18_4Sum().fourSum([1, 0, -1, 0, -2, 2], 0))
+print(_18_4Sum().fourSum([], 0))
+print(_18_4Sum().fourSum([0, 0, 0, 0], 0))
+print(_18_4Sum().fourSum([-3,-2,-1,0,0,1,2,3], 0))
+print(_18_4Sum().fourSum([-5,-4,-3,-2,-1,0,0,1,2,3,4,5], 0))
+
 //var arr26_1 = [1, 2, 2, 3]
 //print(_26_Remove_Duplicates_from_Sorted_Array().removeDuplicates(&arr26_1))
 //print(arr26_1)
@@ -122,10 +133,10 @@ import Foundation
 //print(_80_Remove_Duplicates_from_Sorted_Array_2().removeDuplicates(&arr80_2))
 //print(arr80_2)
 
-var arr88_1 = [1,2,3,0,0,0]
-var arr88_2 = [2, 5, 6]
-_88_Merge_Sorted_Array().merge(&arr88_1, 3, arr88_2, 3)
-print(arr88_1)
+//var arr88_1 = [1,2,3,0,0,0]
+//var arr88_2 = [2, 5, 6]
+//_88_Merge_Sorted_Array().merge(&arr88_1, 3, arr88_2, 3)
+//print(arr88_1)
 
 
 //print(_118_Pascals_Triangle().generate(5))
