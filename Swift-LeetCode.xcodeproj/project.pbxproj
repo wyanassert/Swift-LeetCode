@@ -17,6 +17,9 @@
 		93122F82224BD06600051AC5 /* 006_ZigZag_Conversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93122F81224BD06600051AC5 /* 006_ZigZag_Conversion.swift */; };
 		93122F84224BD53200051AC5 /* 007_Revease_Integer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93122F83224BD53200051AC5 /* 007_Revease_Integer.swift */; };
 		93122F86224BD75D00051AC5 /* 008_String_to_Interger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93122F85224BD75D00051AC5 /* 008_String_to_Interger.swift */; };
+		931B1A6A24C56D2D00E79991 /* 027_Remove_Element.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931B1A6924C56D2D00E79991 /* 027_Remove_Element.swift */; };
+		931B1A6C24C570D700E79991 /* 026_Remove_Duplicates_from_Sorted_Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931B1A6B24C570D700E79991 /* 026_Remove_Duplicates_from_Sorted_Array.swift */; };
+		931B1A6E24C57F0100E79991 /* 080_Remove_Duplicates_from_Sorted_Array_2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931B1A6D24C57F0100E79991 /* 080_Remove_Duplicates_from_Sorted_Array_2.swift */; };
 		9347D29D22684C43002C8D7C /* 012_Integer_to_Roman.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9347D29C22684C43002C8D7C /* 012_Integer_to_Roman.swift */; };
 		9347D2AE22688B0D002C8D7C /* 013_Roman_to_Integer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9347D2AD22688B0D002C8D7C /* 013_Roman_to_Integer.swift */; };
 		9347D2B022688E43002C8D7C /* 014_Longest_Common_Prefix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9347D2AF22688E43002C8D7C /* 014_Longest_Common_Prefix.swift */; };
@@ -49,6 +52,9 @@
 		93122F81224BD06600051AC5 /* 006_ZigZag_Conversion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 006_ZigZag_Conversion.swift; sourceTree = "<group>"; };
 		93122F83224BD53200051AC5 /* 007_Revease_Integer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 007_Revease_Integer.swift; sourceTree = "<group>"; };
 		93122F85224BD75D00051AC5 /* 008_String_to_Interger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 008_String_to_Interger.swift; sourceTree = "<group>"; };
+		931B1A6924C56D2D00E79991 /* 027_Remove_Element.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 027_Remove_Element.swift; sourceTree = "<group>"; };
+		931B1A6B24C570D700E79991 /* 026_Remove_Duplicates_from_Sorted_Array.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 026_Remove_Duplicates_from_Sorted_Array.swift; sourceTree = "<group>"; };
+		931B1A6D24C57F0100E79991 /* 080_Remove_Duplicates_from_Sorted_Array_2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 080_Remove_Duplicates_from_Sorted_Array_2.swift; sourceTree = "<group>"; };
 		9347D29C22684C43002C8D7C /* 012_Integer_to_Roman.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 012_Integer_to_Roman.swift; sourceTree = "<group>"; };
 		9347D2AD22688B0D002C8D7C /* 013_Roman_to_Integer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 013_Roman_to_Integer.swift; sourceTree = "<group>"; };
 		9347D2AF22688E43002C8D7C /* 014_Longest_Common_Prefix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 014_Longest_Common_Prefix.swift; sourceTree = "<group>"; };
@@ -104,6 +110,9 @@
 				9347D29C22684C43002C8D7C /* 012_Integer_to_Roman.swift */,
 				9347D2AD22688B0D002C8D7C /* 013_Roman_to_Integer.swift */,
 				9347D2AF22688E43002C8D7C /* 014_Longest_Common_Prefix.swift */,
+				931B1A6B24C570D700E79991 /* 026_Remove_Duplicates_from_Sorted_Array.swift */,
+				931B1A6924C56D2D00E79991 /* 027_Remove_Element.swift */,
+				931B1A6D24C57F0100E79991 /* 080_Remove_Duplicates_from_Sorted_Array_2.swift */,
 			);
 			path = "Swift-LeetCode";
 			sourceTree = "<group>";
@@ -173,10 +182,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				931B1A6E24C57F0100E79991 /* 080_Remove_Duplicates_from_Sorted_Array_2.swift in Sources */,
 				93122F86224BD75D00051AC5 /* 008_String_to_Interger.swift in Sources */,
 				93122F64224A72BA00051AC5 /* 003_longest_substring_without_repeat_char.swift in Sources */,
+				931B1A6A24C56D2D00E79991 /* 027_Remove_Element.swift in Sources */,
 				93122F68224B3BA600051AC5 /* 005_Longest_Palindromic_Substring.swift in Sources */,
 				93EE2C2A226734CA00244540 /* 009_Palindrome_Number.swift in Sources */,
+				931B1A6C24C570D700E79991 /* 026_Remove_Duplicates_from_Sorted_Array.swift in Sources */,
 				9347D2B022688E43002C8D7C /* 014_Longest_Common_Prefix.swift in Sources */,
 				93122F84224BD53200051AC5 /* 007_Revease_Integer.swift in Sources */,
 				93EE2C2E2268290C00244540 /* 011_Container_With_Most_Water.swift in Sources */,

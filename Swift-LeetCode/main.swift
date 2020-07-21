@@ -98,5 +98,19 @@ import Foundation
 //print(_13_Roman_to_Integer().romanToInt("MCDXXXVII"), 1437)
 //print(_13_Roman_to_Integer().romanToInt("MCMXCIV"), 1994)
 
-print(_14_Longest_Common_Prefix().longestCommonPrefix(["flower","flow","flight"]), "fl");
-print(_14_Longest_Common_Prefix().longestCommonPrefix(["dog","racecar","car"]), "");
+//print(_14_Longest_Common_Prefix().longestCommonPrefix(["flower","flow","flight"]), "fl");
+//print(_14_Longest_Common_Prefix().longestCommonPrefix(["dog","racecar","car"]), "");
+
+//var arr26_1 = [1, 2, 2, 3]
+//print(_26_Remove_Duplicates_from_Sorted_Array().removeDuplicates(&arr26_1))
+//print(arr26_1)
+
+//var arr27_1 = [3, 2, 2, 3]
+//print(_27_Remove_Element().removeElement(&arr27_1, 3))
+
+//var arr80_1 = [1, 2, 2, 2, 3, 3]
+//print(_80_Remove_Duplicates_from_Sorted_Array_2().removeDuplicates(&arr80_1))
+//print(arr80_1)
+var arr80_2 = [0,0,1,1,1,1,2,3,3]
+print(_80_Remove_Duplicates_from_Sorted_Array_2().removeDuplicates(&arr80_2))
+print(arr80_2)
