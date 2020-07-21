@@ -122,6 +122,11 @@ import Foundation
 //print(_80_Remove_Duplicates_from_Sorted_Array_2().removeDuplicates(&arr80_2))
 //print(arr80_2)
 
+var arr88_1 = [1,2,3,0,0,0]
+var arr88_2 = [2, 5, 6]
+_88_Merge_Sorted_Array().merge(&arr88_1, 3, arr88_2, 3)
+print(arr88_1)
+
 
 //print(_118_Pascals_Triangle().generate(5))
 //print(_118_Pascals_Triangle().generate(0))
@@ -129,9 +134,9 @@ import Foundation
 //print(_118_Pascals_Triangle().generate(2))
 //print(_118_Pascals_Triangle().generate(3))
 
-print(_119_Pascals_Triangle_2().getRow(0))
-print(_119_Pascals_Triangle_2().getRow(1))
-print(_119_Pascals_Triangle_2().getRow(2))
-print(_119_Pascals_Triangle_2().getRow(3))
-print(_119_Pascals_Triangle_2().getRow(5))
+//print(_119_Pascals_Triangle_2().getRow(0))
+//print(_119_Pascals_Triangle_2().getRow(1))
+//print(_119_Pascals_Triangle_2().getRow(2))
+//print(_119_Pascals_Triangle_2().getRow(3))
+//print(_119_Pascals_Triangle_2().getRow(5))
 //print(_119_Pascals_Triangle_2().getRow(33))
