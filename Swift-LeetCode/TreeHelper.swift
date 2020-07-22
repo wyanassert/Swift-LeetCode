@@ -41,13 +41,16 @@ class TreeHelper: NSObject {
                 if queue.count == 0 {
                     break
                 } else {
-                    let curr = queue.last
-                    if curr?.left != nil {
-                        curr?.left = nil
-                    } else if curr?.right != nil {
-                        curr?.right = nil
-                        queue.removeLast()
-                    } else {
+                    if let curr = queue.last {
+                        if let left = curr.left, left.val < 0 {
+                            curr.left = nil
+                            continue
+                        }
+                        if let right = curr.right, right.val < 0 {
+                            curr.right = nil
+                            queue.removeLast()
+                            continue
+                        }
                         break
                     }
                 }

@@ -194,15 +194,21 @@ import Foundation
 //var root107 = TreeHelper().buildTreeWithBreathFirstSearch([3, 9, 20, -1, -1, 15, 7])
 //print(_107_Binary_Tree_Level_Order_Traversal_2().levelOrderBottom(root107))
 
-var root110 = TreeHelper().buildTreeWithBreathFirstSearch([3,9,20,-1,-1,15,7])
-var root110_1 = TreeHelper().buildTreeWithBreathFirstSearch([1,2,2,3,3,-1,-1,4,4])
-print(_110_Balanced_Binary_Tree().isBalanced(root110))
-print(_110_Balanced_Binary_Tree().isBalanced(root110_1))
+//var root110 = TreeHelper().buildTreeWithBreathFirstSearch([3,9,20,-1,-1,15,7])
+//var root110_1 = TreeHelper().buildTreeWithBreathFirstSearch([1,2,2,3,3,-1,-1,4,4])
+//print(_110_Balanced_Binary_Tree().isBalanced(root110))
+//print(_110_Balanced_Binary_Tree().isBalanced(root110_1))
 
 //var root111 = TreeHelper().buildTreeWithBreathFirstSearch([3, 9, 20, -1, -1, 15, 7])
 //var root111 = TreeHelper().buildTreeWithBreathFirstSearch([1, 2, 3, -1, 4, -1, 5])
 //var root111 = TreeHelper().buildTreeWithBreathFirstSearch([1, 2])
 //print(_111_Minimum_Depth_of_Binary_Tree().minDepth(root111))
+
+var root112 = TreeHelper().buildTreeWithBreathFirstSearch([5, 4, 8, 11, -1, 13, 4, 7, 2, -1, -1, -1, 1])
+var root112_1 = TreeHelper().buildTreeWithBreathFirstSearch([1,2])
+print(_112_Path_Sum().hasPathSum(root112, 22))
+print(_112_Path_Sum().hasPathSum(root112_1, 1))
+print(_112_Path_Sum().hasPathSum(root112_1, 3))
 
 //print(_118_Pascals_Triangle().generate(5))
 //print(_118_Pascals_Triangle().generate(0))
