@@ -157,11 +157,18 @@ import Foundation
 //_88_Merge_Sorted_Array().merge(&arr88_1, 3, arr88_2, 3)
 //print(arr88_1)
 
+var root101 = TreeHelper().buildTreeWithBreathFirstSearch([3, 9, 20, -1, -1, 15, 7])
+var root101_1 = TreeHelper().buildTreeWithBreathFirstSearch([1,2,2,3,4,4,3])
+var root101_2 = TreeHelper().buildTreeWithBreathFirstSearch([1,2,2,-1,3,-1,3])
+print(_101_Symmetric_Tree().isSymmetric(root101))
+print(_101_Symmetric_Tree().isSymmetric(root101_1))
+print(_101_Symmetric_Tree().isSymmetric(root101_2))
+
 //var root102 = TreeHelper().buildTreeWithBreathFirstSearch([3, 9, 20, -1, -1, 15, 7])
 //print(_102_Binary_Tree_Level_Order_Traversal().levelOrder(root102))
 
-var root103 = TreeHelper().buildTreeWithBreathFirstSearch([3, 9, 20, -1, -1, 15, 7])
-print(_103_Binary_Tree_Zigzag_Level_Order_Traversal().zigzagLevelOrder(root103))
+//var root103 = TreeHelper().buildTreeWithBreathFirstSearch([3, 9, 20, -1, -1, 15, 7])
+//print(_103_Binary_Tree_Zigzag_Level_Order_Traversal().zigzagLevelOrder(root103))
 
 //var root104 = TreeHelper().buildTreeWithBreathFirstSearch([3, 9, 20, -1, -1, 15, 7])
 //var root104 = TreeHelper().buildTreeWithBreathFirstSearch([1, 2, 3, -1, 4, -1, 5])
