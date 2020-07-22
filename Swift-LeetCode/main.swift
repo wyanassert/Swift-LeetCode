@@ -204,11 +204,14 @@ import Foundation
 //var root111 = TreeHelper().buildTreeWithBreathFirstSearch([1, 2])
 //print(_111_Minimum_Depth_of_Binary_Tree().minDepth(root111))
 
-var root112 = TreeHelper().buildTreeWithBreathFirstSearch([5, 4, 8, 11, -1, 13, 4, 7, 2, -1, -1, -1, 1])
-var root112_1 = TreeHelper().buildTreeWithBreathFirstSearch([1,2])
-print(_112_Path_Sum().hasPathSum(root112, 22))
-print(_112_Path_Sum().hasPathSum(root112_1, 1))
-print(_112_Path_Sum().hasPathSum(root112_1, 3))
+//var root112 = TreeHelper().buildTreeWithBreathFirstSearch([5, 4, 8, 11, -1, 13, 4, 7, 2, -1, -1, -1, 1])
+//var root112_1 = TreeHelper().buildTreeWithBreathFirstSearch([1,2])
+//print(_112_Path_Sum().hasPathSum(root112, 22))
+//print(_112_Path_Sum().hasPathSum(root112_1, 1))
+//print(_112_Path_Sum().hasPathSum(root112_1, 3))
+
+var root113 = TreeHelper().buildTreeWithBreathFirstSearch([5, 4, 8, 11, -1, 13, 4, 7, 2, -1, -1, 5, 1])
+print(_113_Path_sum_2().pathSum(root113, 22))
 
 //print(_118_Pascals_Triangle().generate(5))
 //print(_118_Pascals_Triangle().generate(0))
