@@ -157,16 +157,16 @@ import Foundation
 //_88_Merge_Sorted_Array().merge(&arr88_1, 3, arr88_2, 3)
 //print(arr88_1)
 
-var root100_1_1 = TreeHelper().buildTreeWithBreathFirstSearch([1,2,3])
-var root100_1_2 = TreeHelper().buildTreeWithBreathFirstSearch([1,2,3])
-var root100_2_1 = TreeHelper().buildTreeWithBreathFirstSearch([1,2])
-var root100_2_2 = TreeHelper().buildTreeWithBreathFirstSearch([1,-1,2])
-var root100_3_1 = TreeHelper().buildTreeWithBreathFirstSearch([1,2,1])
-var root100_3_2 = TreeHelper().buildTreeWithBreathFirstSearch([1,1,2])
-
-print(_100_Same_Tree().isSame(root100_1_1, root100_1_2))
-print(_100_Same_Tree().isSame(root100_2_1, root100_2_2))
-print(_100_Same_Tree().isSame(root100_3_1, root100_3_2))
+//var root100_1_1 = TreeHelper().buildTreeWithBreathFirstSearch([1,2,3])
+//var root100_1_2 = TreeHelper().buildTreeWithBreathFirstSearch([1,2,3])
+//var root100_2_1 = TreeHelper().buildTreeWithBreathFirstSearch([1,2])
+//var root100_2_2 = TreeHelper().buildTreeWithBreathFirstSearch([1,-1,2])
+//var root100_3_1 = TreeHelper().buildTreeWithBreathFirstSearch([1,2,1])
+//var root100_3_2 = TreeHelper().buildTreeWithBreathFirstSearch([1,1,2])
+//
+//print(_100_Same_Tree().isSame(root100_1_1, root100_1_2))
+//print(_100_Same_Tree().isSame(root100_2_1, root100_2_2))
+//print(_100_Same_Tree().isSame(root100_3_1, root100_3_2))
 
 //var root101 = TreeHelper().buildTreeWithBreathFirstSearch([3, 9, 20, -1, -1, 15, 7])
 //var root101_1 = TreeHelper().buildTreeWithBreathFirstSearch([1,2,2,3,4,4,3])
@@ -193,6 +193,11 @@ print(_100_Same_Tree().isSame(root100_3_1, root100_3_2))
 
 //var root107 = TreeHelper().buildTreeWithBreathFirstSearch([3, 9, 20, -1, -1, 15, 7])
 //print(_107_Binary_Tree_Level_Order_Traversal_2().levelOrderBottom(root107))
+
+var root110 = TreeHelper().buildTreeWithBreathFirstSearch([3,9,20,-1,-1,15,7])
+var root110_1 = TreeHelper().buildTreeWithBreathFirstSearch([1,2,2,3,3,-1,-1,4,4])
+print(_110_Balanced_Binary_Tree().isBalanced(root110))
+print(_110_Balanced_Binary_Tree().isBalanced(root110_1))
 
 //var root111 = TreeHelper().buildTreeWithBreathFirstSearch([3, 9, 20, -1, -1, 15, 7])
 //var root111 = TreeHelper().buildTreeWithBreathFirstSearch([1, 2, 3, -1, 4, -1, 5])
