@@ -157,8 +157,13 @@ import Foundation
 //_88_Merge_Sorted_Array().merge(&arr88_1, 3, arr88_2, 3)
 //print(arr88_1)
 
-//var root84 = TreeHelper().buildTreeWithBreathFirstSearch([1,-1,2,3])
-//print(_094_Binary_Tree_Inorder_Traversal().inorderTraversal(root84))
+//var root94 = TreeHelper().buildTreeWithBreathFirstSearch([1,-1,2,3])
+//print(_094_Binary_Tree_Inorder_Traversal().inorderTraversal(root94))
+
+var root98_1 = TreeHelper().buildTreeWithBreathFirstSearch([2,1,3])
+var root98_2 = TreeHelper().buildTreeWithBreathFirstSearch([5,1,4,-1,-1,3,6])
+print(_098_Validate_Binary_Search_Tree().isValidBST(root98_1))
+print(_098_Validate_Binary_Search_Tree().isValidBST(root98_2))
 
 //var root100_1_1 = TreeHelper().buildTreeWithBreathFirstSearch([1,2,3])
 //var root100_1_2 = TreeHelper().buildTreeWithBreathFirstSearch([1,2,3])
@@ -216,8 +221,8 @@ import Foundation
 //var root113 = TreeHelper().buildTreeWithBreathFirstSearch([5, 4, 8, 11, -1, 13, 4, 7, 2, -1, -1, 5, 1])
 //print(_113_Path_sum_2().pathSum(root113, 22))
 
-var root114 = TreeHelper().buildTreeWithBreathFirstSearch([1,2,5,3,4,-1,6])
-_114_Flatten_Binary_Tree_to_Linked_List().flatten(root114)
+//var root114 = TreeHelper().buildTreeWithBreathFirstSearch([1,2,5,3,4,-1,6])
+//_114_Flatten_Binary_Tree_to_Linked_List().flatten(root114)
 
 //print(_118_Pascals_Triangle().generate(5))
 //print(_118_Pascals_Triangle().generate(0))
