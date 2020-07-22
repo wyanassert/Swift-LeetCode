@@ -108,4 +108,8 @@ class TreeHelper: NSObject {
         }
         return nil
     }
+    
+    public func height(_ r: TreeNode?) -> Int {
+        return r != nil ? 1 + max(height(r?.left), height(r?.right)) : 0
+    }
 }
