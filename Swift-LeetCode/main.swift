@@ -157,6 +157,9 @@ import Foundation
 //_88_Merge_Sorted_Array().merge(&arr88_1, 3, arr88_2, 3)
 //print(arr88_1)
 
+var root84 = TreeHelper().buildTreeWithBreathFirstSearch([1,-1,2,3])
+print(_094_Binary_Tree_Inorder_Traversal().inorderTraversal(root84))
+
 //var root100_1_1 = TreeHelper().buildTreeWithBreathFirstSearch([1,2,3])
 //var root100_1_2 = TreeHelper().buildTreeWithBreathFirstSearch([1,2,3])
 //var root100_2_1 = TreeHelper().buildTreeWithBreathFirstSearch([1,2])
@@ -210,8 +213,8 @@ import Foundation
 //print(_112_Path_Sum().hasPathSum(root112_1, 1))
 //print(_112_Path_Sum().hasPathSum(root112_1, 3))
 
-var root113 = TreeHelper().buildTreeWithBreathFirstSearch([5, 4, 8, 11, -1, 13, 4, 7, 2, -1, -1, 5, 1])
-print(_113_Path_sum_2().pathSum(root113, 22))
+//var root113 = TreeHelper().buildTreeWithBreathFirstSearch([5, 4, 8, 11, -1, 13, 4, 7, 2, -1, -1, 5, 1])
+//print(_113_Path_sum_2().pathSum(root113, 22))
 
 //print(_118_Pascals_Triangle().generate(5))
 //print(_118_Pascals_Triangle().generate(0))
@@ -225,6 +228,12 @@ print(_113_Path_sum_2().pathSum(root113, 22))
 //print(_119_Pascals_Triangle_2().getRow(3))
 //print(_119_Pascals_Triangle_2().getRow(5))
 //print(_119_Pascals_Triangle_2().getRow(33))
+
+//var root144 = TreeHelper().buildTreeWithBreathFirstSearch([1,-1,2,3])
+//print(_144_Binary_Tree_Preorder_Traversal().preorderTraversal(root144))
+
+//var root145 = TreeHelper().buildTreeWithBreathFirstSearch([1,-1,2,3])
+//print(_145_Binary_Tree_Inorder_Traversal().postorderTraversal(root145))
 
 //print(_153_Find_Minimum_in_Rotated_Sorted_Array().findMin([3,4,5,1,2]))
 //print(_153_Find_Minimum_in_Rotated_Sorted_Array().findMin([4,5,6,7,1,2,3]))
