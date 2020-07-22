@@ -190,3 +190,16 @@ import Foundation
 //print(_162_Find_Peak_Element().findPeakElement([2, 1]))
 //print(_162_Find_Peak_Element().findPeakElement([]))
 //print(_162_Find_Peak_Element().findPeakElement([0,1,3]))
+
+print(_191_Number_of_1_Bits().hammingWeight(0b00000000000000000000000000001011))
+print(_191_Number_of_1_Bits().hammingWeight(0b00000000000000000000000010000000))
+print(_191_Number_of_1_Bits().hammingWeight(0b11111111111111111111111111111101))
+
+//print(_231_Power_of_Two().isPowerOfTwo(0))
+//print(_231_Power_of_Two().isPowerOfTwo(1))
+//print(_231_Power_of_Two().isPowerOfTwo(16))
+//print(_231_Power_of_Two().isPowerOfTwo(218))
+
+//print(_268_Missing_Number().missingNumber([0,1]))
+//print(_268_Missing_Number().missingNumber([3,0,1]))
+//print(_268_Missing_Number().missingNumber([9,6,4,2,3,5,7,0,1]))
