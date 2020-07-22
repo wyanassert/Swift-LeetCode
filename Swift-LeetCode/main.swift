@@ -161,11 +161,16 @@ import Foundation
 //var root104 = TreeHelper().buildTreeWithBreathFirstSearch([1, 2, 3, -1, 4, -1, 5])
 //print(_104_Maximum_Depth_of_Binary_Tree().maxDepth(root104))
 
+var root105 = _105_Construct_Binary_Tree_from_Preorder_and_Inorder_Traversal().buildTree([3, 9, 20, 15, 7], [9,3,15,20,7])
+print(root105?.val as Any)
 
-var root111 = TreeHelper().buildTreeWithBreathFirstSearch([3, 9, 20, -1, -1, 15, 7])
+//var root106 = _106_Construct_Binary_Tree_from_Inorder_and_Postorder_Traversal().buildTree([9,3,15,20,7], [9,15,7,20,3])
+//print(root106?.val as Any)
+
+//var root111 = TreeHelper().buildTreeWithBreathFirstSearch([3, 9, 20, -1, -1, 15, 7])
 //var root111 = TreeHelper().buildTreeWithBreathFirstSearch([1, 2, 3, -1, 4, -1, 5])
 //var root111 = TreeHelper().buildTreeWithBreathFirstSearch([1, 2])
-print(_111_Minimum_Depth_of_Binary_Tree().minDepth(root111))
+//print(_111_Minimum_Depth_of_Binary_Tree().minDepth(root111))
 
 //print(_118_Pascals_Triangle().generate(5))
 //print(_118_Pascals_Triangle().generate(0))
