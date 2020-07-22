@@ -157,6 +157,15 @@ import Foundation
 //_88_Merge_Sorted_Array().merge(&arr88_1, 3, arr88_2, 3)
 //print(arr88_1)
 
+//var root104 = TreeHelper().buildTreeWithBreathFirstSearch([3, 9, 20, -1, -1, 15, 7])
+//var root104 = TreeHelper().buildTreeWithBreathFirstSearch([1, 2, 3, -1, 4, -1, 5])
+//print(_104_Maximum_Depth_of_Binary_Tree().maxDepth(root104))
+
+
+var root111 = TreeHelper().buildTreeWithBreathFirstSearch([3, 9, 20, -1, -1, 15, 7])
+//var root111 = TreeHelper().buildTreeWithBreathFirstSearch([1, 2, 3, -1, 4, -1, 5])
+//var root111 = TreeHelper().buildTreeWithBreathFirstSearch([1, 2])
+print(_111_Minimum_Depth_of_Binary_Tree().minDepth(root111))
 
 //print(_118_Pascals_Triangle().generate(5))
 //print(_118_Pascals_Triangle().generate(0))
@@ -191,9 +200,9 @@ import Foundation
 //print(_162_Find_Peak_Element().findPeakElement([]))
 //print(_162_Find_Peak_Element().findPeakElement([0,1,3]))
 
-print(_191_Number_of_1_Bits().hammingWeight(0b00000000000000000000000000001011))
-print(_191_Number_of_1_Bits().hammingWeight(0b00000000000000000000000010000000))
-print(_191_Number_of_1_Bits().hammingWeight(0b11111111111111111111111111111101))
+//print(_191_Number_of_1_Bits().hammingWeight(0b00000000000000000000000000001011))
+//print(_191_Number_of_1_Bits().hammingWeight(0b00000000000000000000000010000000))
+//print(_191_Number_of_1_Bits().hammingWeight(0b11111111111111111111111111111101))
 
 //print(_231_Power_of_Two().isPowerOfTwo(0))
 //print(_231_Power_of_Two().isPowerOfTwo(1))
