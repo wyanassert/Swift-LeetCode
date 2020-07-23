@@ -165,8 +165,8 @@ import Foundation
 //print(_098_Validate_Binary_Search_Tree().isValidBST(root98_1))
 //print(_098_Validate_Binary_Search_Tree().isValidBST(root98_2))
 
-let root99 = TreeHelper().buildTreeWithBreathFirstSearch([1, 3, -1, -1, 2])
-_099_Recover_Binary_Search_Tree().recoverTree(root99)
+//let root99 = TreeHelper().buildTreeWithBreathFirstSearch([1, 3, -1, -1, 2])
+//_099_Recover_Binary_Search_Tree().recoverTree(root99)
 
 //var root100_1_1 = TreeHelper().buildTreeWithBreathFirstSearch([1,2,3])
 //var root100_1_2 = TreeHelper().buildTreeWithBreathFirstSearch([1,2,3])
@@ -290,6 +290,9 @@ _099_Recover_Binary_Search_Tree().recoverTree(root99)
 //print(_231_Power_of_Two().isPowerOfTwo(1))
 //print(_231_Power_of_Two().isPowerOfTwo(16))
 //print(_231_Power_of_Two().isPowerOfTwo(218))
+
+//let root257 = TreeHelper().buildTreeWithBreathFirstSearch([1, 2, 3, -1, 5])
+//print(_257_Binary_Tree_Paths().binaryTreePaths(root257))
 
 //print(_268_Missing_Number().missingNumber([0,1]))
 //print(_268_Missing_Number().missingNumber([3,0,1]))
