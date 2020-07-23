@@ -160,10 +160,10 @@ import Foundation
 //var root94 = TreeHelper().buildTreeWithBreathFirstSearch([1,-1,2,3])
 //print(_094_Binary_Tree_Inorder_Traversal().inorderTraversal(root94))
 
-var root98_1 = TreeHelper().buildTreeWithBreathFirstSearch([2,1,3])
-var root98_2 = TreeHelper().buildTreeWithBreathFirstSearch([5,1,4,-1,-1,3,6])
-print(_098_Validate_Binary_Search_Tree().isValidBST(root98_1))
-print(_098_Validate_Binary_Search_Tree().isValidBST(root98_2))
+//var root98_1 = TreeHelper().buildTreeWithBreathFirstSearch([2,1,3])
+//var root98_2 = TreeHelper().buildTreeWithBreathFirstSearch([5,1,4,-1,-1,3,6])
+//print(_098_Validate_Binary_Search_Tree().isValidBST(root98_1))
+//print(_098_Validate_Binary_Search_Tree().isValidBST(root98_2))
 
 //var root100_1_1 = TreeHelper().buildTreeWithBreathFirstSearch([1,2,3])
 //var root100_1_2 = TreeHelper().buildTreeWithBreathFirstSearch([1,2,3])
@@ -223,6 +223,9 @@ print(_098_Validate_Binary_Search_Tree().isValidBST(root98_2))
 
 //var root114 = TreeHelper().buildTreeWithBreathFirstSearch([1,2,5,3,4,-1,6])
 //_114_Flatten_Binary_Tree_to_Linked_List().flatten(root114)
+
+var root116 = TreeHelper().buildTreeForPopulatingNextRightPointersWithBreathFirstSearch([1,2,3,4,5,6,7])
+print(_116_Populating_Next_Right_Pointers_in_Each_Node().connect(root116))
 
 //print(_118_Pascals_Triangle().generate(5))
 //print(_118_Pascals_Triangle().generate(0))
