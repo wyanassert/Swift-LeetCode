@@ -136,6 +136,14 @@ import Foundation
 //print(_040_Combination_Sum_2().combinationSum2([10,1,2,7,6,1,5], 8))
 //print(_040_Combination_Sum_2().combinationSum2([2,5,2,1,2], 5))
 
+//print(_046_Permutations().permute([]))
+//print(_046_Permutations().permute([1]))
+//print(_046_Permutations().permute([1,2,3]))
+
+print(_047_Permutations_2().permuteUnique([]))
+print(_047_Permutations_2().permuteUnique([1]))
+print(_047_Permutations_2().permuteUnique([1,1,3]))
+
 //print(_66_Plus_One().plusOne([1, 2, 3]))
 //print(_66_Plus_One().plusOne([4, 3, 2, 1]))
 //print(_66_Plus_One().plusOne([9]))
@@ -171,7 +179,7 @@ import Foundation
 //_88_Merge_Sorted_Array().merge(&arr88_1, 3, arr88_2, 3)
 //print(arr88_1)
 
-print(_090_Subsets_2().subsetsWithDup([1, 2, 2]))
+//print(_090_Subsets_2().subsetsWithDup([1, 2, 2]))
 
 //var root94 = TreeHelper().buildTreeWithBreathFirstSearch([1,-1,2,3])
 //print(_094_Binary_Tree_Inorder_Traversal().inorderTraversal(root94))

@@ -69,6 +69,8 @@
 		931B1AD024C9C45000E79991 /* 017_Letter_Combinations_of_a_Phone_Number.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931B1ACF24C9C45000E79991 /* 017_Letter_Combinations_of_a_Phone_Number.swift */; };
 		931B1AD224C9D06100E79991 /* 078_Subsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931B1AD124C9D06100E79991 /* 078_Subsets.swift */; };
 		931B1AD424C9D57000E79991 /* 090_Subsets_2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931B1AD324C9D57000E79991 /* 090_Subsets_2.swift */; };
+		931B1AD624C9D7D200E79991 /* 046_Permutations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931B1AD524C9D7D200E79991 /* 046_Permutations.swift */; };
+		931B1AD824C9D7E300E79991 /* 047_Permutations_2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931B1AD724C9D7E300E79991 /* 047_Permutations_2.swift */; };
 		9347D29D22684C43002C8D7C /* 012_Integer_to_Roman.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9347D29C22684C43002C8D7C /* 012_Integer_to_Roman.swift */; };
 		9347D2AE22688B0D002C8D7C /* 013_Roman_to_Integer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9347D2AD22688B0D002C8D7C /* 013_Roman_to_Integer.swift */; };
 		9347D2B022688E43002C8D7C /* 014_Longest_Common_Prefix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9347D2AF22688E43002C8D7C /* 014_Longest_Common_Prefix.swift */; };
@@ -153,6 +155,8 @@
 		931B1ACF24C9C45000E79991 /* 017_Letter_Combinations_of_a_Phone_Number.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 017_Letter_Combinations_of_a_Phone_Number.swift; sourceTree = "<group>"; };
 		931B1AD124C9D06100E79991 /* 078_Subsets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 078_Subsets.swift; sourceTree = "<group>"; };
 		931B1AD324C9D57000E79991 /* 090_Subsets_2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 090_Subsets_2.swift; sourceTree = "<group>"; };
+		931B1AD524C9D7D200E79991 /* 046_Permutations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 046_Permutations.swift; sourceTree = "<group>"; };
+		931B1AD724C9D7E300E79991 /* 047_Permutations_2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 047_Permutations_2.swift; sourceTree = "<group>"; };
 		9347D29C22684C43002C8D7C /* 012_Integer_to_Roman.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 012_Integer_to_Roman.swift; sourceTree = "<group>"; };
 		9347D2AD22688B0D002C8D7C /* 013_Roman_to_Integer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 013_Roman_to_Integer.swift; sourceTree = "<group>"; };
 		9347D2AF22688E43002C8D7C /* 014_Longest_Common_Prefix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 014_Longest_Common_Prefix.swift; sourceTree = "<group>"; };
@@ -219,6 +223,8 @@
 				931B1ACD24C9C11500E79991 /* 040_Combination_Sum_2.swift */,
 				931B1A8724C743E900E79991 /* 034_Find_First_and_Last_Position_of_Element_in_Sorted_Array.swift */,
 				931B1A8924C74AB600E79991 /* 035_Search_Insert_Position.swift */,
+				931B1AD524C9D7D200E79991 /* 046_Permutations.swift */,
+				931B1AD724C9D7E300E79991 /* 047_Permutations_2.swift */,
 				931B1A6F24C694C100E79991 /* 066_Plus_One.swift */,
 				931B1A8524C7404B00E79991 /* 074_Search_a_2D_Matrix.swift */,
 				931B1AC924C9B01C00E79991 /* 077_Combinations.swift */,
@@ -357,6 +363,7 @@
 				931B1AAC24C85EB200E79991 /* 112_Path_Sum.swift in Sources */,
 				931B1A8C24C74C7300E79991 /* 162_Find_Peak_Element.swift in Sources */,
 				931B1A7024C694C100E79991 /* 066_Plus_One.swift in Sources */,
+				931B1AD824C9D7E300E79991 /* 047_Permutations_2.swift in Sources */,
 				931B1AA824C85CCE00E79991 /* 100_Same_Tree.swift in Sources */,
 				931B1AB224C87B4200E79991 /* 145_Binary_Tree_Inorder_Traversal.swift in Sources */,
 				93122F84224BD53200051AC5 /* 007_Revease_Integer.swift in Sources */,
@@ -366,6 +373,7 @@
 				931B1AAE24C8761A00E79991 /* 113_Path_sum_2.swift in Sources */,
 				931B1A7A24C6C51C00E79991 /* 016_3Num_closest.swift in Sources */,
 				931B1AD224C9D06100E79991 /* 078_Subsets.swift in Sources */,
+				931B1AD624C9D7D200E79991 /* 046_Permutations.swift in Sources */,
 				931B1AC024C975FA00E79991 /* 109_Convert_Sorted_List_to_Binary_Search_Tree.swift in Sources */,
 				931B1ABC24C92AA500E79991 /* 117_Populating_Next_Right_Pointers_in_Each_Node_2.swift in Sources */,
 				931B1AAA24C85E9800E79991 /* 110_Balanced_Binary_Tree.swift in Sources */,
