@@ -106,6 +106,9 @@ import Foundation
 
 //print(_16_3Num_closest().threeSumClosest([-1,2,1,-4], 1))
 
+//print(_017_Letter_Combinations_of_a_Phone_Number().letterCombinations("23"))
+//print(_017_Letter_Combinations_of_a_Phone_Number().letterCombinations(""))
+
 //print(_18_4Sum().fourSum([1, 0, -1, 0, -2, 2], 0))
 //print(_18_4Sum().fourSum([], 0))
 //print(_18_4Sum().fourSum([0, 0, 0, 0], 0))
@@ -130,8 +133,8 @@ import Foundation
 //print(_039_Combination_Sum().combinationSum([2,3,6,7], 7))
 //print(_039_Combination_Sum().combinationSum([2,3,5], 8))
 
-print(_040_Combination_Sum_2().combinationSum2([10,1,2,7,6,1,5], 8))
-print(_040_Combination_Sum_2().combinationSum2([2,5,2,1,2], 5))
+//print(_040_Combination_Sum_2().combinationSum2([10,1,2,7,6,1,5], 8))
+//print(_040_Combination_Sum_2().combinationSum2([2,5,2,1,2], 5))
 
 //print(_66_Plus_One().plusOne([1, 2, 3]))
 //print(_66_Plus_One().plusOne([4, 3, 2, 1]))
