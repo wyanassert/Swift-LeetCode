@@ -8,6 +8,14 @@
 
 import Cocoa
 
+public class ListNode {
+    public var val: Int
+    public var next: ListNode?
+    public init() { self.val = 0; self.next = nil; }
+    public init(_ val: Int) { self.val = val; self.next = nil; }
+    public init(_ val: Int, _ next: ListNode?) { self.val = val; self.next = next; }
+}
+
 public class Node {
     public var val: Int
     public var left: Node?
@@ -191,6 +199,26 @@ class TreeHelper: NSObject {
             }
             if node.right != nil && node.right!.val < 0 {
                 node.right = nil
+            }
+        }
+        
+        return root
+    }
+    
+    func convertListToListNode(_ numList: [Int]?) -> ListNode? {
+        guard let numList = numList else { return nil }
+        
+        var root: ListNode?
+        var last: ListNode?
+        
+        for i in 0..<numList.count {
+            let curr = ListNode(numList[i])
+            if root == nil {
+                root = curr
+                last = curr
+            } else {
+                last?.next = curr
+                last = curr
             }
         }
         
