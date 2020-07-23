@@ -9,30 +9,32 @@
 import Cocoa
 
 class _117_Populating_Next_Right_Pointers_in_Each_Node_2: NSObject {
-    func connect(_ root: Node?) -> Node? {
-        guard root != nil else {return nil}
-        var leftMost = root
-        let dummy = Node(0)
-        while leftMost != nil {
-            var cur = leftMost
-            var pre = dummy
-            while cur != nil {
-                if cur!.left != nil {
-                    pre.next = cur!.left!
-                    pre = pre.next!
-                }
-                if cur!.right != nil {
-                    pre.next = cur!.right!
-                    pre = pre.next!
-                }
-                cur = cur!.next
-            }
-            leftMost = dummy.next
-            dummy.next = nil
-        }
-        return root
-    }
     
+//    Fastest and simple anser
+//    func connect(_ root: Node?) -> Node? {
+//        guard root != nil else {return nil}
+//        var leftMost = root
+//        let dummy = Node(0)
+//        while leftMost != nil {
+//            var cur = leftMost
+//            var pre = dummy
+//            while cur != nil {
+//                if cur!.left != nil {
+//                    pre.next = cur!.left!
+//                    pre = pre.next!
+//                }
+//                if cur!.right != nil {
+//                    pre.next = cur!.right!
+//                    pre = pre.next!
+//                }
+//                cur = cur!.next
+//            }
+//            leftMost = dummy.next
+//            dummy.next = nil
+//        }
+//        return root
+//    }
+
 //https://leetcode.com/problems/populating-next-right-pointers-in-each-node-ii/discuss/744974/Swift
 //    func connect(_ root: Node?) -> Node? {
 //        var nodes = [[Node]]()
@@ -131,8 +133,44 @@ class _117_Populating_Next_Right_Pointers_in_Each_Node_2: NSObject {
 //        }
 //        return root
 //    }
-    //递归做法, 递归时候 node.next 节点还未处理, 所以想一直向右找 next 然后赋给子节点的 next 不现实
-    //Error TestCase: [2,1,3,0,7,9,1,2,-1,1,0,-1,-1,8,8,-1,-1,-1,-1,7]
+    
+//    递归做法 先处理右边再处理左边 是对于下面错误的递归的修正以及优化
+    func traversal(_ root: Node?) {
+        guard let root = root else { return }
+        
+        var next = root.next
+        while next != nil {
+            if let leftNext = next?.left {
+                next = leftNext
+                break
+            } else if let rightNext = next?.right {
+                next = rightNext
+                break
+            } else {
+                next = next?.next
+            }
+        }
+
+        if let right = root.right {
+            right.next = next
+        }
+        if let left = root.left {
+            left.next = root.right == nil ? next : root.right
+        }
+        traversal(root.right)
+        traversal(root.left)
+    }
+
+    func connect(_ root: Node?) -> Node? {
+        guard let root = root else { return nil }
+
+        traversal(root)
+
+        return root
+    }
+    
+//    递归做法, 如果先左后右会有问题 递归时候 node.next 节点还未处理, 所以想一直向右找 next 然后赋给子节点的 next 不现实
+//    Error TestCase: [2,1,3,0,7,9,1,2,-1,1,0,-1,-1,8,8,-1,-1,-1,-1,7]
 //    func traversal(_ root: Node?) {
 //        guard let root = root else { return }
 //
