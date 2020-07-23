@@ -127,6 +127,12 @@ import Foundation
 //print(_35_Search_Insert_Position().searchInsert([1,3,5,6], 7))
 //print(_35_Search_Insert_Position().searchInsert([1,3,5,6], 0))
 
+//print(_039_Combination_Sum().combinationSum([2,3,6,7], 7))
+//print(_039_Combination_Sum().combinationSum([2,3,5], 8))
+
+print(_040_Combination_Sum_2().combinationSum2([10,1,2,7,6,1,5], 8))
+print(_040_Combination_Sum_2().combinationSum2([2,5,2,1,2], 5))
+
 //print(_66_Plus_One().plusOne([1, 2, 3]))
 //print(_66_Plus_One().plusOne([4, 3, 2, 1]))
 //print(_66_Plus_One().plusOne([9]))
@@ -136,6 +142,9 @@ import Foundation
 
 //print(_74_Search_a_2D_Matrix().searchMatrix([[1,  3,  5,  7], [10, 11, 16, 20], [23, 30, 34, 50]], 3))
 //print(_74_Search_a_2D_Matrix().searchMatrix([[1,  3,  5,  7], [10, 11, 16, 20], [23, 30, 34, 50]], 13))
+
+//print(_077_Combinations().combine(4, 2))
+//print(_077_Combinations().combine(1, 1))
 
 //var arr80_1 = [1, 2, 2, 2, 3, 3]
 //print(_80_Remove_Duplicates_from_Sorted_Array_2().removeDuplicates(&arr80_1))
@@ -256,10 +265,10 @@ import Foundation
 //print(_119_Pascals_Triangle_2().getRow(5))
 //print(_119_Pascals_Triangle_2().getRow(33))
 
-let root129_1 = TreeHelper().buildTreeWithBreathFirstSearch([1,2,3])
-let root129_2 = TreeHelper().buildTreeWithBreathFirstSearch([4,9,0,5,1])
-print(_129_Sum_Root_to_Leaf_Numbers().sumNumbers(root129_1))
-print(_129_Sum_Root_to_Leaf_Numbers().sumNumbers(root129_2))
+//let root129_1 = TreeHelper().buildTreeWithBreathFirstSearch([1,2,3])
+//let root129_2 = TreeHelper().buildTreeWithBreathFirstSearch([4,9,0,5,1])
+//print(_129_Sum_Root_to_Leaf_Numbers().sumNumbers(root129_1))
+//print(_129_Sum_Root_to_Leaf_Numbers().sumNumbers(root129_2))
 
 //var root144 = TreeHelper().buildTreeWithBreathFirstSearch([1,-1,2,3])
 //print(_144_Binary_Tree_Preorder_Traversal().preorderTraversal(root144))
