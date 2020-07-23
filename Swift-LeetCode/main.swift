@@ -256,6 +256,11 @@ import Foundation
 //print(_119_Pascals_Triangle_2().getRow(5))
 //print(_119_Pascals_Triangle_2().getRow(33))
 
+let root129_1 = TreeHelper().buildTreeWithBreathFirstSearch([1,2,3])
+let root129_2 = TreeHelper().buildTreeWithBreathFirstSearch([4,9,0,5,1])
+print(_129_Sum_Root_to_Leaf_Numbers().sumNumbers(root129_1))
+print(_129_Sum_Root_to_Leaf_Numbers().sumNumbers(root129_2))
+
 //var root144 = TreeHelper().buildTreeWithBreathFirstSearch([1,-1,2,3])
 //print(_144_Binary_Tree_Preorder_Traversal().preorderTraversal(root144))
 
