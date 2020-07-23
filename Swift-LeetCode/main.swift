@@ -224,11 +224,15 @@ import Foundation
 //var root114 = TreeHelper().buildTreeWithBreathFirstSearch([1,2,5,3,4,-1,6])
 //_114_Flatten_Binary_Tree_to_Linked_List().flatten(root114)
 
-var root116 = TreeHelper().buildTreeForPopulatingNextRightPointersWithBreathFirstSearch([1,2,3,4,5,6,7])
-_116_Populating_Next_Right_Pointers_in_Each_Node().connect(root116)
+//var root116 = TreeHelper().buildTreeForPopulatingNextRightPointersWithBreathFirstSearch([1,2,3,4,5,6,7])
+//_116_Populating_Next_Right_Pointers_in_Each_Node().connect(root116)
 
 //var root117 = TreeHelper().buildTreeForPopulatingNextRightPointersWithBreathFirstSearch([1,2,3,4,5,-1,7])
+//var root117_1 = TreeHelper().buildTreeForPopulatingNextRightPointersWithBreathFirstSearch([2,1,3,0,7,9,1,2,-1,1,0,-1,-1,8,8,-1,-1,-1,-1,7])
+var root117_2 = TreeHelper().buildTreeForPopulatingNextRightPointersWithBreathFirstSearch([9,3,2,-1,4,4,0,6,-1,5])
 //_117_Populating_Next_Right_Pointers_in_Each_Node_2().connect(root117)
+//_117_Populating_Next_Right_Pointers_in_Each_Node_2().connect(root117_1)
+_117_Populating_Next_Right_Pointers_in_Each_Node_2().connect(root117_2)
 
 //print(_118_Pascals_Triangle().generate(5))
 //print(_118_Pascals_Triangle().generate(0))
