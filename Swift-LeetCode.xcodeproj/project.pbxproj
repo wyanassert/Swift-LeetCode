@@ -57,6 +57,7 @@
 		931B1AB624C87F1A00E79991 /* 114_Flatten_Binary_Tree_to_Linked_List.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931B1AB524C87F1A00E79991 /* 114_Flatten_Binary_Tree_to_Linked_List.swift */; };
 		931B1AB824C8846500E79991 /* 098_Validate_Binary_Search_Tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931B1AB724C8846500E79991 /* 098_Validate_Binary_Search_Tree.swift */; };
 		931B1ABA24C924C700E79991 /* 116_Populating_Next_Right_Pointers_in_Each_Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931B1AB924C924C700E79991 /* 116_Populating_Next_Right_Pointers_in_Each_Node.swift */; };
+		931B1ABC24C92AA500E79991 /* 117_Populating_Next_Right_Pointers_in_Each_Node_2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931B1ABB24C92AA500E79991 /* 117_Populating_Next_Right_Pointers_in_Each_Node_2.swift */; };
 		9347D29D22684C43002C8D7C /* 012_Integer_to_Roman.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9347D29C22684C43002C8D7C /* 012_Integer_to_Roman.swift */; };
 		9347D2AE22688B0D002C8D7C /* 013_Roman_to_Integer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9347D2AD22688B0D002C8D7C /* 013_Roman_to_Integer.swift */; };
 		9347D2B022688E43002C8D7C /* 014_Longest_Common_Prefix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9347D2AF22688E43002C8D7C /* 014_Longest_Common_Prefix.swift */; };
@@ -129,6 +130,7 @@
 		931B1AB524C87F1A00E79991 /* 114_Flatten_Binary_Tree_to_Linked_List.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 114_Flatten_Binary_Tree_to_Linked_List.swift; sourceTree = "<group>"; };
 		931B1AB724C8846500E79991 /* 098_Validate_Binary_Search_Tree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 098_Validate_Binary_Search_Tree.swift; sourceTree = "<group>"; };
 		931B1AB924C924C700E79991 /* 116_Populating_Next_Right_Pointers_in_Each_Node.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 116_Populating_Next_Right_Pointers_in_Each_Node.swift; sourceTree = "<group>"; };
+		931B1ABB24C92AA500E79991 /* 117_Populating_Next_Right_Pointers_in_Each_Node_2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 117_Populating_Next_Right_Pointers_in_Each_Node_2.swift; sourceTree = "<group>"; };
 		9347D29C22684C43002C8D7C /* 012_Integer_to_Roman.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 012_Integer_to_Roman.swift; sourceTree = "<group>"; };
 		9347D2AD22688B0D002C8D7C /* 013_Roman_to_Integer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 013_Roman_to_Integer.swift; sourceTree = "<group>"; };
 		9347D2AF22688E43002C8D7C /* 014_Longest_Common_Prefix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 014_Longest_Common_Prefix.swift; sourceTree = "<group>"; };
@@ -214,6 +216,7 @@
 				931B1AAD24C8761A00E79991 /* 113_Path_sum_2.swift */,
 				931B1AB524C87F1A00E79991 /* 114_Flatten_Binary_Tree_to_Linked_List.swift */,
 				931B1AB924C924C700E79991 /* 116_Populating_Next_Right_Pointers_in_Each_Node.swift */,
+				931B1ABB24C92AA500E79991 /* 117_Populating_Next_Right_Pointers_in_Each_Node_2.swift */,
 				931B1A7124C69B9600E79991 /* 118_Pascals_Triangle.swift */,
 				931B1A7324C69E8400E79991 /* 119_Pascals_Triangle_2.swift */,
 				931B1AAF24C87B0C00E79991 /* 144_Binary_Tree_Preorder_Traversal.swift */,
@@ -324,6 +327,7 @@
 				93EE2C2E2268290C00244540 /* 011_Container_With_Most_Water.swift in Sources */,
 				931B1AAE24C8761A00E79991 /* 113_Path_sum_2.swift in Sources */,
 				931B1A7A24C6C51C00E79991 /* 016_3Num_closest.swift in Sources */,
+				931B1ABC24C92AA500E79991 /* 117_Populating_Next_Right_Pointers_in_Each_Node_2.swift in Sources */,
 				931B1AAA24C85E9800E79991 /* 110_Balanced_Binary_Tree.swift in Sources */,
 				931B1A9824C828A100E79991 /* 111_Minimum_Depth_of_Binary_Tree.swift in Sources */,
 				931B1AA224C8524900E79991 /* 107_Binary_Tree_Level_Order_Traversal_2.swift in Sources */,
