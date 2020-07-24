@@ -163,10 +163,10 @@ import Foundation
 //print(_66_Plus_One().plusOne([9, 9, 9]))
 //print(_66_Plus_One().plusOne([6,1,4,5,3,9,0,1,9,5,1,8,6,7,0,5,5,4,3]))
 
-print(_070_Climbing_Stairs().climbStairs(2),2)
-print(_070_Climbing_Stairs().climbStairs(3),3)
-print(_070_Climbing_Stairs().climbStairs(4),5)
-print(_070_Climbing_Stairs().climbStairs(5),8)
+//print(_070_Climbing_Stairs().climbStairs(2),2)
+//print(_070_Climbing_Stairs().climbStairs(3),3)
+//print(_070_Climbing_Stairs().climbStairs(4),5)
+//print(_070_Climbing_Stairs().climbStairs(5),8)
 
 //print(_74_Search_a_2D_Matrix().searchMatrix([[1,  3,  5,  7], [10, 11, 16, 20], [23, 30, 34, 50]], 3))
 //print(_74_Search_a_2D_Matrix().searchMatrix([[1,  3,  5,  7], [10, 11, 16, 20], [23, 30, 34, 50]], 13))
@@ -296,6 +296,8 @@ print(_070_Climbing_Stairs().climbStairs(5),8)
 //print(_119_Pascals_Triangle_2().getRow(3))
 //print(_119_Pascals_Triangle_2().getRow(5))
 //print(_119_Pascals_Triangle_2().getRow(33))
+
+print(_120_Triangle().minimumTotal([[2],[3,4],[6,5,7],[4,1,8,3]]), 11)
 
 //print(_121_Best_Time_to_Buy_and_Sell_Stock().maxProfit([7,1,5,3,6,4]))
 //print(_121_Best_Time_to_Buy_and_Sell_Stock().maxProfit([7,6,4,3,1]))
