@@ -10,8 +10,37 @@ import Cocoa
 
 class _123_Best_Time_to_Buy_and_Sell_Stock_3: NSObject {
     
+//  延续 122 dp 的思路, 增加数组一个维度 k(本题为 2)
     func maxProfit(_ prices: [Int]) -> Int {
-        return 0
+        guard prices.count > 1 else {
+            return 0
+        }
+        
+        let min = Int.min/2
+        
+        //每天有两个状态, 要么当天持有股票, 要么当天不持有, [k] 表示发生过多少次完整的交易, 即当天和以前卖了多少次
+        var dpNot: [[Int]] = Array(repeating: [0,0,0], count: prices.count) //每一天当天不持有股票的收益, 可能是当天卖出, 也可能是昨天也没有持有
+        var dpHas: [[Int]] = Array(repeating: [0,0,0], count: prices.count) //每一天当天持有股票的收益, 可能是当天买入了, 也可能是昨天持有的
+        
+        dpNot[0][0] = 0 //没有昨天, 第一天也不买
+        dpNot[0][1] = min
+        dpNot[0][2] = min
+        dpHas[0][0] = -prices[0] //没有昨天, 只可能是第一天买入了, 收益为负数
+        dpHas[0][1] = min
+        dpHas[0][2] = min
+        
+        for i in 1..<prices.count  {
+            for k in 0..<3 {
+                if(k > 0) {
+                    dpNot[i][k] = max(dpNot[i-1][k], dpHas[i-1][k - 1] + prices[i])
+                } else {
+                    dpNot[i][k] = dpNot[i-1][k]
+                }
+                dpHas[i][k] = max(dpNot[i-1][k] - prices[i], dpHas[i-1][k])
+            }
+        }
+        
+        return max(dpNot[prices.count-1][0], dpNot[prices.count-1][1], dpNot[prices.count-1][2])
     }
     
 // 直接调用 121 题的解法  too Slow, O(N^2) 时间复杂度太高, TestCase199超时, 输入数组 length10000
