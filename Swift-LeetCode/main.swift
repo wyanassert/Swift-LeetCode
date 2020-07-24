@@ -144,12 +144,17 @@ import Foundation
 //print(_047_Permutations_2().permuteUnique([1]))
 //print(_047_Permutations_2().permuteUnique([1,1,3]))
 
+//print(_053_Maximum_Subarray().maxSubArray([-2,1,-3,4,-1,2,1,-5,4]), 6)
+
 //print(_062_Unique_Paths().uniquePaths(3, 2))
 
-print(_63_Unique_Paths_2().uniquePathsWithObstacles([[0]]), 1)
-print(_63_Unique_Paths_2().uniquePathsWithObstacles([[1]]), 0)
-print(_63_Unique_Paths_2().uniquePathsWithObstacles([[1, 0]]), 0)
-print(_63_Unique_Paths_2().uniquePathsWithObstacles([[0,0,0],[0,1,0],[0,0,0]]), 2)
+//print(_63_Unique_Paths_2().uniquePathsWithObstacles([[0]]), 1)
+//print(_63_Unique_Paths_2().uniquePathsWithObstacles([[1]]), 0)
+//print(_63_Unique_Paths_2().uniquePathsWithObstacles([[1, 0]]), 0)
+//print(_63_Unique_Paths_2().uniquePathsWithObstacles([[0,0,0],[0,1,0],[0,0,0]]), 2)
+
+//print(_64_Minimum_Path_Sum().minPathSum([[1,3,1],[1,5,1],[4,2,1]]), 7)
+//print(_64_Minimum_Path_Sum().minPathSum([[1,2],[1,1]]), 3)
 
 //print(_66_Plus_One().plusOne([1, 2, 3]))
 //print(_66_Plus_One().plusOne([4, 3, 2, 1]))
@@ -319,6 +324,9 @@ print(_63_Unique_Paths_2().uniquePathsWithObstacles([[0,0,0],[0,1,0],[0,0,0]]), 
 
 //var root145 = TreeHelper().buildTreeWithBreathFirstSearch([1,-1,2,3])
 //print(_145_Binary_Tree_Inorder_Traversal().postorderTraversal(root145))
+
+print(_152_Maximum_Product_Subarray().maxProduct([2,3,-2,4]), 6)
+print(_152_Maximum_Product_Subarray().maxProduct([-2,0,-1]), 0)
 
 //print(_153_Find_Minimum_in_Rotated_Sorted_Array().findMin([3,4,5,1,2]))
 //print(_153_Find_Minimum_in_Rotated_Sorted_Array().findMin([4,5,6,7,1,2,3]))
