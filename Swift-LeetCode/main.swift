@@ -201,6 +201,16 @@ import Foundation
 //var root94 = TreeHelper().buildTreeWithBreathFirstSearch([1,-1,2,3])
 //print(_094_Binary_Tree_Inorder_Traversal().inorderTraversal(root94))
 
+let rootList95_1 = _095_Unique_Binary_Search_Trees_2().generateTrees(1)
+let rootList95_2 = _095_Unique_Binary_Search_Trees_2().generateTrees(2)
+let rootList95_3 = _095_Unique_Binary_Search_Trees_2().generateTrees(3)
+let rootList95_4 = _095_Unique_Binary_Search_Trees_2().generateTrees(4)
+
+//print(_096_Unique_Binary_Search_Trees().numTrees(1),1)
+//print(_096_Unique_Binary_Search_Trees().numTrees(2),2)
+//print(_096_Unique_Binary_Search_Trees().numTrees(3),5)
+//print(_096_Unique_Binary_Search_Trees().numTrees(19),1767263190)
+
 //var root98_1 = TreeHelper().buildTreeWithBreathFirstSearch([2,1,3])
 //var root98_2 = TreeHelper().buildTreeWithBreathFirstSearch([5,1,4,-1,-1,3,6])
 //print(_098_Validate_Binary_Search_Tree().isValidBST(root98_1))
@@ -297,7 +307,7 @@ import Foundation
 //print(_119_Pascals_Triangle_2().getRow(5))
 //print(_119_Pascals_Triangle_2().getRow(33))
 
-print(_120_Triangle().minimumTotal([[2],[3,4],[6,5,7],[4,1,8,3]]), 11)
+//print(_120_Triangle().minimumTotal([[2],[3,4],[6,5,7],[4,1,8,3]]), 11)
 
 //print(_121_Best_Time_to_Buy_and_Sell_Stock().maxProfit([7,1,5,3,6,4]))
 //print(_121_Best_Time_to_Buy_and_Sell_Stock().maxProfit([7,6,4,3,1]))
