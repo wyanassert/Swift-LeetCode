@@ -144,6 +144,13 @@ import Foundation
 //print(_047_Permutations_2().permuteUnique([1]))
 //print(_047_Permutations_2().permuteUnique([1,1,3]))
 
+//print(_062_Unique_Paths().uniquePaths(3, 2))
+
+print(_63_Unique_Paths_2().uniquePathsWithObstacles([[0]]), 1)
+print(_63_Unique_Paths_2().uniquePathsWithObstacles([[1]]), 0)
+print(_63_Unique_Paths_2().uniquePathsWithObstacles([[1, 0]]), 0)
+print(_63_Unique_Paths_2().uniquePathsWithObstacles([[0,0,0],[0,1,0],[0,0,0]]), 2)
+
 //print(_66_Plus_One().plusOne([1, 2, 3]))
 //print(_66_Plus_One().plusOne([4, 3, 2, 1]))
 //print(_66_Plus_One().plusOne([9]))
@@ -290,17 +297,17 @@ import Foundation
 //print(_122_Best_Time_to_Buy_and_Sell_Stock_2().maxProfit_dp([7,6,4,3,1]))
 //print(_122_Best_Time_to_Buy_and_Sell_Stock_2().maxProfit_dp([7,1,5,3,6,4]))
 
-print(_123_Best_Time_to_Buy_and_Sell_Stock_3().maxProfit([2,1,2,0,1]))
-print(_123_Best_Time_to_Buy_and_Sell_Stock_3().maxProfit([3,5,0,3,1,4]))
-print(_123_Best_Time_to_Buy_and_Sell_Stock_3().maxProfit([3,3,5,0,0,3,1,4]))
-print(_123_Best_Time_to_Buy_and_Sell_Stock_3().maxProfit([1,2,3,4,5]))
-print(_123_Best_Time_to_Buy_and_Sell_Stock_3().maxProfit([7,6,4,3,1]))
-
-print(_123_Best_Time_to_Buy_and_Sell_Stock_3().maxProfit_direct([2,1,2,0,1]))
-print(_123_Best_Time_to_Buy_and_Sell_Stock_3().maxProfit_direct([3,5,0,3,1,4]))
-print(_123_Best_Time_to_Buy_and_Sell_Stock_3().maxProfit_direct([3,3,5,0,0,3,1,4]))
-print(_123_Best_Time_to_Buy_and_Sell_Stock_3().maxProfit_direct([1,2,3,4,5]))
-print(_123_Best_Time_to_Buy_and_Sell_Stock_3().maxProfit_direct([7,6,4,3,1]))
+//print(_123_Best_Time_to_Buy_and_Sell_Stock_3().maxProfit([2,1,2,0,1]))
+//print(_123_Best_Time_to_Buy_and_Sell_Stock_3().maxProfit([3,5,0,3,1,4]))
+//print(_123_Best_Time_to_Buy_and_Sell_Stock_3().maxProfit([3,3,5,0,0,3,1,4]))
+//print(_123_Best_Time_to_Buy_and_Sell_Stock_3().maxProfit([1,2,3,4,5]))
+//print(_123_Best_Time_to_Buy_and_Sell_Stock_3().maxProfit([7,6,4,3,1]))
+//
+//print(_123_Best_Time_to_Buy_and_Sell_Stock_3().maxProfit_direct([2,1,2,0,1]))
+//print(_123_Best_Time_to_Buy_and_Sell_Stock_3().maxProfit_direct([3,5,0,3,1,4]))
+//print(_123_Best_Time_to_Buy_and_Sell_Stock_3().maxProfit_direct([3,3,5,0,0,3,1,4]))
+//print(_123_Best_Time_to_Buy_and_Sell_Stock_3().maxProfit_direct([1,2,3,4,5]))
+//print(_123_Best_Time_to_Buy_and_Sell_Stock_3().maxProfit_direct([7,6,4,3,1]))
 
 //let root129_1 = TreeHelper().buildTreeWithBreathFirstSearch([1,2,3])
 //let root129_2 = TreeHelper().buildTreeWithBreathFirstSearch([4,9,0,5,1])
@@ -332,6 +339,12 @@ print(_123_Best_Time_to_Buy_and_Sell_Stock_3().maxProfit_direct([7,6,4,3,1]))
 //print(_162_Find_Peak_Element().findPeakElement([2, 1]))
 //print(_162_Find_Peak_Element().findPeakElement([]))
 //print(_162_Find_Peak_Element().findPeakElement([0,1,3]))
+
+//print(_188_Best_Time_to_Buy_and_Sell_Stock().maxProfit(2, [2,1,2,0,1]))
+//print(_188_Best_Time_to_Buy_and_Sell_Stock().maxProfit(2, [3,5,0,3,1,4]))
+//print(_188_Best_Time_to_Buy_and_Sell_Stock().maxProfit(2, [3,3,5,0,0,3,1,4]))
+//print(_188_Best_Time_to_Buy_and_Sell_Stock().maxProfit(2, [1,2,3,4,5]))
+//print(_188_Best_Time_to_Buy_and_Sell_Stock().maxProfit(2, [7,6,4,3,1]))
 
 //print(_191_Number_of_1_Bits().hammingWeight(0b00000000000000000000000000001011))
 //print(_191_Number_of_1_Bits().hammingWeight(0b00000000000000000000000010000000))
