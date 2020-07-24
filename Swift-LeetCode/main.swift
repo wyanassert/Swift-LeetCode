@@ -163,6 +163,11 @@ import Foundation
 //print(_66_Plus_One().plusOne([9, 9, 9]))
 //print(_66_Plus_One().plusOne([6,1,4,5,3,9,0,1,9,5,1,8,6,7,0,5,5,4,3]))
 
+print(_070_Climbing_Stairs().climbStairs(2),2)
+print(_070_Climbing_Stairs().climbStairs(3),3)
+print(_070_Climbing_Stairs().climbStairs(4),5)
+print(_070_Climbing_Stairs().climbStairs(5),8)
+
 //print(_74_Search_a_2D_Matrix().searchMatrix([[1,  3,  5,  7], [10, 11, 16, 20], [23, 30, 34, 50]], 3))
 //print(_74_Search_a_2D_Matrix().searchMatrix([[1,  3,  5,  7], [10, 11, 16, 20], [23, 30, 34, 50]], 13))
 
@@ -325,8 +330,8 @@ import Foundation
 //var root145 = TreeHelper().buildTreeWithBreathFirstSearch([1,-1,2,3])
 //print(_145_Binary_Tree_Inorder_Traversal().postorderTraversal(root145))
 
-print(_152_Maximum_Product_Subarray().maxProduct([2,3,-2,4]), 6)
-print(_152_Maximum_Product_Subarray().maxProduct([-2,0,-1]), 0)
+//print(_152_Maximum_Product_Subarray().maxProduct([2,3,-2,4]), 6)
+//print(_152_Maximum_Product_Subarray().maxProduct([-2,0,-1]), 0)
 
 //print(_153_Find_Minimum_in_Rotated_Sorted_Array().findMin([3,4,5,1,2]))
 //print(_153_Find_Minimum_in_Rotated_Sorted_Array().findMin([4,5,6,7,1,2,3]))
