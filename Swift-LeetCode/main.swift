@@ -357,6 +357,14 @@ import Foundation
 //print(_135_Candy().candy([1,2,1,3,3]), 7)
 //print(_135_Candy().candy([3,2,1]), 6)
 
+//print(_139_Word_Break().wordBreak("leetcode", ["leet", "code"]), true)
+//print(_139_Word_Break().wordBreak("applepenapple", ["apple", "pen"]), true)
+//print(_139_Word_Break().wordBreak("catsandog", ["cats", "dog", "sand", "and", "cat"]), false)
+
+print(_140_Word_Break_2().wordBreak("leetcode", ["leet", "code"]), ["leet code"])
+print(_140_Word_Break_2().wordBreak("catsanddog", ["cat", "cats", "and", "sand", "dog"]), ["cats and dog","cat sand dog"])
+print(_140_Word_Break_2().wordBreak("pineapplepenapple", ["apple", "pen", "applepen", "pine", "pineapple"]), [ "pine apple pen apple","pineapple pen apple","pine applepen apple"])
+
 //var root144 = TreeHelper().buildTreeWithBreathFirstSearch([1,-1,2,3])
 //print(_144_Binary_Tree_Preorder_Traversal().preorderTraversal(root144))
 
