@@ -135,6 +135,13 @@ import Foundation
 
 //print(_040_Combination_Sum_2().combinationSum2([10,1,2,7,6,1,5], 8))
 //print(_040_Combination_Sum_2().combinationSum2([2,5,2,1,2], 5))
+//
+//print(_045_Jump_Game_2().jump([0]), 0)
+//print(_045_Jump_Game_2().jump([2,1]), 1)
+//print(_045_Jump_Game_2().jump([2,3,1]), 1)
+//print(_045_Jump_Game_2().jump([2,3,1,1,4]), 2)
+//print(_045_Jump_Game_2().jump([1,2,1,1,4]), 3)
+//print(_045_Jump_Game_2().jump([7,0,9,6,9,6,1,7,9,0,1,2,9,0,3]), 2)
 
 //print(_046_Permutations().permute([]))
 //print(_046_Permutations().permute([1]))
@@ -155,6 +162,10 @@ import Foundation
 
 //print(_64_Minimum_Path_Sum().minPathSum([[1,3,1],[1,5,1],[4,2,1]]), 7)
 //print(_64_Minimum_Path_Sum().minPathSum([[1,2],[1,1]]), 3)
+
+//print(_065_Jump_Game().canJump([0]), true)
+//print(_065_Jump_Game().canJump([2,3,1,1,4]), true)
+//print(_065_Jump_Game().canJump([3,2,1,0,4]), false)
 
 //print(_66_Plus_One().plusOne([1, 2, 3]))
 //print(_66_Plus_One().plusOne([4, 3, 2, 1]))
@@ -201,10 +212,10 @@ import Foundation
 //var root94 = TreeHelper().buildTreeWithBreathFirstSearch([1,-1,2,3])
 //print(_094_Binary_Tree_Inorder_Traversal().inorderTraversal(root94))
 
-let rootList95_1 = _095_Unique_Binary_Search_Trees_2().generateTrees(1)
-let rootList95_2 = _095_Unique_Binary_Search_Trees_2().generateTrees(2)
-let rootList95_3 = _095_Unique_Binary_Search_Trees_2().generateTrees(3)
-let rootList95_4 = _095_Unique_Binary_Search_Trees_2().generateTrees(4)
+//let rootList95_1 = _095_Unique_Binary_Search_Trees_2().generateTrees(1)
+//let rootList95_2 = _095_Unique_Binary_Search_Trees_2().generateTrees(2)
+//let rootList95_3 = _095_Unique_Binary_Search_Trees_2().generateTrees(3)
+//let rootList95_4 = _095_Unique_Binary_Search_Trees_2().generateTrees(4)
 
 //print(_096_Unique_Binary_Search_Trees().numTrees(1),1)
 //print(_096_Unique_Binary_Search_Trees().numTrees(2),2)
@@ -336,6 +347,9 @@ let rootList95_4 = _095_Unique_Binary_Search_Trees_2().generateTrees(4)
 //print(_129_Sum_Root_to_Leaf_Numbers().sumNumbers(root129_1))
 //print(_129_Sum_Root_to_Leaf_Numbers().sumNumbers(root129_2))
 
+print(_134_Gas_Station().canCompleteCircuit([1,2,3,4,5], [3,4,5,1,2]), 3)
+print(_134_Gas_Station().canCompleteCircuit([2,3,4], [3,4,3]), -1)
+
 //var root144 = TreeHelper().buildTreeWithBreathFirstSearch([1,-1,2,3])
 //print(_144_Binary_Tree_Preorder_Traversal().preorderTraversal(root144))
 
@@ -386,3 +400,6 @@ let rootList95_4 = _095_Unique_Binary_Search_Trees_2().generateTrees(4)
 //print(_268_Missing_Number().missingNumber([0,1]))
 //print(_268_Missing_Number().missingNumber([3,0,1]))
 //print(_268_Missing_Number().missingNumber([9,6,4,2,3,5,7,0,1]))
+
+//print(_279_Perfect_Squares().numSquares(12), 3)
+//print(_279_Perfect_Squares().numSquares(13), 2)
