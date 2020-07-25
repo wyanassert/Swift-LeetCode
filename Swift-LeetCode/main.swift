@@ -174,6 +174,12 @@ import Foundation
 //print(_66_Plus_One().plusOne([9, 9, 9]))
 //print(_66_Plus_One().plusOne([6,1,4,5,3,9,0,1,9,5,1,8,6,7,0,5,5,4,3]))
 
+print(_067_Add_Binary().addBinary("1", "1"), "10")
+print(_067_Add_Binary().addBinary("11", "11"), "110")
+print(_067_Add_Binary().addBinary("11", "1"), "100")
+print(_067_Add_Binary().addBinary("1010", "1011"), "10101")
+print(_067_Add_Binary().addBinary("100", "110010"), "110110")
+
 //print(_070_Climbing_Stairs().climbStairs(2),2)
 //print(_070_Climbing_Stairs().climbStairs(3),3)
 //print(_070_Climbing_Stairs().climbStairs(4),5)
@@ -361,9 +367,9 @@ import Foundation
 //print(_139_Word_Break().wordBreak("applepenapple", ["apple", "pen"]), true)
 //print(_139_Word_Break().wordBreak("catsandog", ["cats", "dog", "sand", "and", "cat"]), false)
 
-print(_140_Word_Break_2().wordBreak("leetcode", ["leet", "code"]), ["leet code"])
-print(_140_Word_Break_2().wordBreak("catsanddog", ["cat", "cats", "and", "sand", "dog"]), ["cats and dog","cat sand dog"])
-print(_140_Word_Break_2().wordBreak("pineapplepenapple", ["apple", "pen", "applepen", "pine", "pineapple"]), [ "pine apple pen apple","pineapple pen apple","pine applepen apple"])
+//print(_140_Word_Break_2().wordBreak("leetcode", ["leet", "code"]), ["leet code"])
+//print(_140_Word_Break_2().wordBreak("catsanddog", ["cat", "cats", "and", "sand", "dog"]), ["cats and dog","cat sand dog"])
+//print(_140_Word_Break_2().wordBreak("pineapplepenapple", ["apple", "pen", "applepen", "pine", "pineapple"]), [ "pine apple pen apple","pineapple pen apple","pine applepen apple"])
 
 //var root144 = TreeHelper().buildTreeWithBreathFirstSearch([1,-1,2,3])
 //print(_144_Binary_Tree_Preorder_Traversal().preorderTraversal(root144))
