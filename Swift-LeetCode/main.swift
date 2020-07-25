@@ -347,8 +347,15 @@ import Foundation
 //print(_129_Sum_Root_to_Leaf_Numbers().sumNumbers(root129_1))
 //print(_129_Sum_Root_to_Leaf_Numbers().sumNumbers(root129_2))
 
-print(_134_Gas_Station().canCompleteCircuit([1,2,3,4,5], [3,4,5,1,2]), 3)
-print(_134_Gas_Station().canCompleteCircuit([2,3,4], [3,4,3]), -1)
+//print(_134_Gas_Station().canCompleteCircuit([1,2,3,4,5], [3,4,5,1,2]), 3)
+//print(_134_Gas_Station().canCompleteCircuit([2,3,4], [3,4,3]), -1)
+
+//print(_135_Candy().candy([1,3,4,5,2]), 11)
+//print(_135_Candy().candy([1,0,2]), 5)
+//print(_135_Candy().candy([1,2,2]), 4)
+//print(_135_Candy().candy([1,2,3]), 6)
+//print(_135_Candy().candy([1,2,1,3,3]), 7)
+//print(_135_Candy().candy([3,2,1]), 6)
 
 //var root144 = TreeHelper().buildTreeWithBreathFirstSearch([1,-1,2,3])
 //print(_144_Binary_Tree_Preorder_Traversal().preorderTraversal(root144))
