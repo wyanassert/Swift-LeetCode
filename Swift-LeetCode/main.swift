@@ -200,6 +200,15 @@ import Foundation
 //print(_80_Remove_Duplicates_from_Sorted_Array_2().removeDuplicates(&arr80_2))
 //print(arr80_2)
 
+let head82_1 = TreeHelper().convertListToListNode([1, 2, 3, 3,4,4,5])
+_082_Remove_Duplicates_from_Sorted_List_2().deleteDuplicates(head82_1)
+
+//let head83_1 = TreeHelper().convertListToListNode([1, 1, 2])
+//let head83_2 = TreeHelper().convertListToListNode([1, 1, 2, 3, 4])
+//print(_083_Remove_Duplicates_from_Sorted_List().deleteDuplicates(head83_1)?.val)
+//print(_083_Remove_Duplicates_from_Sorted_List().deleteDuplicates(head83_2)?.val)
+//print(_083_Remove_Duplicates_from_Sorted_List().deleteDuplicates(head83_2)?.val)
+
 //print(_84_Largest_Rectangle_in_Histogram().largestRectangleArea([1]))
 //print(_84_Largest_Rectangle_in_Histogram().largestRectangleArea([1, 2]))
 //print(_84_Largest_Rectangle_in_Histogram().largestRectangleArea([2, 1, 2]))
@@ -380,14 +389,14 @@ import Foundation
 //print(_141_Link_List_Cycle().hasCycle(head141_3), false)
 //print(_141_Link_List_Cycle().hasCycle(head141_4), false)
 
-let head142_1 = TreeHelper().convertListToListNode([3,2,0,-4], 1)
-let head142_2 = TreeHelper().convertListToListNode([1, 2], 0)
-let head142_3 = TreeHelper().convertListToListNode([1], -1)
-let head142_4 = TreeHelper().convertListToListNode([1, 2], -1)
-print(_142_Link_List_Cycle_2().detectCycle(head142_1)?.val ?? -1, 2)
-print(_142_Link_List_Cycle_2().detectCycle(head142_2)?.val ?? -1, 1)
-print(_142_Link_List_Cycle_2().detectCycle(head142_3)?.val ?? -1, -1)
-print(_142_Link_List_Cycle_2().detectCycle(head142_4)?.val ?? -1, -1)
+//let head142_1 = TreeHelper().convertListToListNode([3,2,0,-4], 1)
+//let head142_2 = TreeHelper().convertListToListNode([1, 2], 0)
+//let head142_3 = TreeHelper().convertListToListNode([1], -1)
+//let head142_4 = TreeHelper().convertListToListNode([1, 2], -1)
+//print(_142_Link_List_Cycle_2().detectCycle(head142_1)?.val ?? -1, 2)
+//print(_142_Link_List_Cycle_2().detectCycle(head142_2)?.val ?? -1, 1)
+//print(_142_Link_List_Cycle_2().detectCycle(head142_3)?.val ?? -1, -1)
+//print(_142_Link_List_Cycle_2().detectCycle(head142_4)?.val ?? -1, -1)
 
 //var root144 = TreeHelper().buildTreeWithBreathFirstSearch([1,-1,2,3])
 //print(_144_Binary_Tree_Preorder_Traversal().preorderTraversal(root144))
