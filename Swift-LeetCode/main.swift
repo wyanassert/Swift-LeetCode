@@ -174,11 +174,11 @@ import Foundation
 //print(_66_Plus_One().plusOne([9, 9, 9]))
 //print(_66_Plus_One().plusOne([6,1,4,5,3,9,0,1,9,5,1,8,6,7,0,5,5,4,3]))
 
-print(_067_Add_Binary().addBinary("1", "1"), "10")
-print(_067_Add_Binary().addBinary("11", "11"), "110")
-print(_067_Add_Binary().addBinary("11", "1"), "100")
-print(_067_Add_Binary().addBinary("1010", "1011"), "10101")
-print(_067_Add_Binary().addBinary("100", "110010"), "110110")
+//print(_067_Add_Binary().addBinary("1", "1"), "10")
+//print(_067_Add_Binary().addBinary("11", "11"), "110")
+//print(_067_Add_Binary().addBinary("11", "1"), "100")
+//print(_067_Add_Binary().addBinary("1010", "1011"), "10101")
+//print(_067_Add_Binary().addBinary("100", "110010"), "110110")
 
 //print(_070_Climbing_Stairs().climbStairs(2),2)
 //print(_070_Climbing_Stairs().climbStairs(3),3)
@@ -409,6 +409,10 @@ print(_067_Add_Binary().addBinary("100", "110010"), "110110")
 //print(_191_Number_of_1_Bits().hammingWeight(0b00000000000000000000000000001011))
 //print(_191_Number_of_1_Bits().hammingWeight(0b00000000000000000000000010000000))
 //print(_191_Number_of_1_Bits().hammingWeight(0b11111111111111111111111111111101))
+
+print(_227_Basic_Calculation_2().calculate("3+2*2 + 1"), 7)
+print(_227_Basic_Calculation_2().calculate(" 3/2 "), 1)
+print(_227_Basic_Calculation_2().calculate(" 3+5 / 2"), 5)
 
 //print(_231_Power_of_Two().isPowerOfTwo(0))
 //print(_231_Power_of_Two().isPowerOfTwo(1))
