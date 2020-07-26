@@ -205,11 +205,13 @@ class TreeHelper: NSObject {
         return root
     }
     
-    func convertListToListNode(_ numList: [Int]?) -> ListNode? {
+    func convertListToListNode(_ numList: [Int]?, _ pos: Int) -> ListNode? {
         guard let numList = numList else { return nil }
         
         var root: ListNode?
         var last: ListNode?
+        
+        var posNode: ListNode?
         
         for i in 0..<numList.count {
             let curr = ListNode(numList[i])
@@ -220,8 +222,19 @@ class TreeHelper: NSObject {
                 last?.next = curr
                 last = curr
             }
+            
+            if i == pos {
+                posNode = curr
+            }
+            if i == numList.count - 1 {
+                curr.next = posNode
+            }
         }
         
         return root
+    }
+    
+    func convertListToListNode(_ numList: [Int]?) -> ListNode? {
+        return convertListToListNode(numList, -1)
     }
 }

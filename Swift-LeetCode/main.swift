@@ -371,6 +371,24 @@ import Foundation
 //print(_140_Word_Break_2().wordBreak("catsanddog", ["cat", "cats", "and", "sand", "dog"]), ["cats and dog","cat sand dog"])
 //print(_140_Word_Break_2().wordBreak("pineapplepenapple", ["apple", "pen", "applepen", "pine", "pineapple"]), [ "pine apple pen apple","pineapple pen apple","pine applepen apple"])
 
+//let head141_1 = TreeHelper().convertListToListNode([3,2,0,-4], 1)
+//let head141_2 = TreeHelper().convertListToListNode([1, 2], 0)
+//let head141_3 = TreeHelper().convertListToListNode([1], -1)
+//let head141_4 = TreeHelper().convertListToListNode([1, 2], -1)
+//print(_141_Link_List_Cycle().hasCycle(head141_1), true)
+//print(_141_Link_List_Cycle().hasCycle(head141_2), true)
+//print(_141_Link_List_Cycle().hasCycle(head141_3), false)
+//print(_141_Link_List_Cycle().hasCycle(head141_4), false)
+
+let head142_1 = TreeHelper().convertListToListNode([3,2,0,-4], 1)
+let head142_2 = TreeHelper().convertListToListNode([1, 2], 0)
+let head142_3 = TreeHelper().convertListToListNode([1], -1)
+let head142_4 = TreeHelper().convertListToListNode([1, 2], -1)
+print(_142_Link_List_Cycle_2().detectCycle(head142_1)?.val ?? -1, 2)
+print(_142_Link_List_Cycle_2().detectCycle(head142_2)?.val ?? -1, 1)
+print(_142_Link_List_Cycle_2().detectCycle(head142_3)?.val ?? -1, -1)
+print(_142_Link_List_Cycle_2().detectCycle(head142_4)?.val ?? -1, -1)
+
 //var root144 = TreeHelper().buildTreeWithBreathFirstSearch([1,-1,2,3])
 //print(_144_Binary_Tree_Preorder_Traversal().preorderTraversal(root144))
 
@@ -410,9 +428,9 @@ import Foundation
 //print(_191_Number_of_1_Bits().hammingWeight(0b00000000000000000000000010000000))
 //print(_191_Number_of_1_Bits().hammingWeight(0b11111111111111111111111111111101))
 
-print(_227_Basic_Calculation_2().calculate("3+2*2 + 1"), 7)
-print(_227_Basic_Calculation_2().calculate(" 3/2 "), 1)
-print(_227_Basic_Calculation_2().calculate(" 3+5 / 2"), 5)
+//print(_227_Basic_Calculation_2().calculate("3+2*2 + 1"), 7)
+//print(_227_Basic_Calculation_2().calculate(" 3/2 "), 1)
+//print(_227_Basic_Calculation_2().calculate(" 3+5 / 2"), 5)
 
 //print(_231_Power_of_Two().isPowerOfTwo(0))
 //print(_231_Power_of_Two().isPowerOfTwo(1))
