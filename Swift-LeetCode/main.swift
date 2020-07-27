@@ -131,11 +131,15 @@ import Foundation
 //let res23 = _023_Merge_k_Sorted_Lists().mergeKLists([l23_1, l23_2, l23_3])
 //print(res23)
 
-let list25 = TreeHelper().convertListToListNode([1,2,3,4,5])
-let list25_1 = TreeHelper().convertListToListNode([1,2,3,4,5])
-let res = _025_Reverse_Nodes_in_k_Group().reverseKGroup(list25, 2)
-let res_1 = _025_Reverse_Nodes_in_k_Group().reverseKGroup(list25_1, 3)
-print(res)
+//let list24 = TreeHelper().convertListToListNode([1,2,3,4])
+//let res = _024_Swap_Nodes_in_Pairs().swapPairs(list24)
+//print(res)
+
+//let list25 = TreeHelper().convertListToListNode([1,2,3,4,5])
+//let list25_1 = TreeHelper().convertListToListNode([1,2,3,4,5])
+//let res = _025_Reverse_Nodes_in_k_Group().reverseKGroup(list25, 2)
+//let res_1 = _025_Reverse_Nodes_in_k_Group().reverseKGroup(list25_1, 3)
+//print(res)
 
 //var arr26_1 = [1, 2, 2, 3]
 //print(_026_Remove_Duplicates_from_Sorted_Array().removeDuplicates(&arr26_1))
@@ -429,6 +433,10 @@ print(res)
 
 //var root145 = TreeHelper().buildTreeWithBreathFirstSearch([1,-1,2,3])
 //print(_145_Binary_Tree_Inorder_Traversal().postorderTraversal(root145))
+
+let root148 = TreeHelper().convertListToListNode([4,2,1,3])
+let res148 = _148_Sort_List().sortList(root148)
+print(res148)
 
 //print(_152_Maximum_Product_Subarray().maxProduct([2,3,-2,4]), 6)
 //print(_152_Maximum_Product_Subarray().maxProduct([-2,0,-1]), 0)
