@@ -179,6 +179,13 @@ import Foundation
 
 //print(_053_Maximum_Subarray().maxSubArray([-2,1,-3,4,-1,2,1,-5,4]), 6)
 
+let list61 = TreeHelper().convertListToListNode([1,2,3,4,5])
+let list61_1 = TreeHelper().convertListToListNode([0,1,2])
+let res61 = _061_Rotate_List().rotateRight(list61, 2)
+let res61_1 = _061_Rotate_List().rotateRight(list61_1, 4)
+print(res61)
+
+
 //print(_062_Unique_Paths().uniquePaths(3, 2))
 
 //print(_63_Unique_Paths_2().uniquePathsWithObstacles([[0]]), 1)
@@ -434,9 +441,14 @@ import Foundation
 //var root145 = TreeHelper().buildTreeWithBreathFirstSearch([1,-1,2,3])
 //print(_145_Binary_Tree_Inorder_Traversal().postorderTraversal(root145))
 
-let root148 = TreeHelper().convertListToListNode([4,2,1,3])
-let res148 = _148_Sort_List().sortList(root148)
-print(res148)
+
+//let root147 = TreeHelper().convertListToListNode([4,2,1,3])
+//let res147 = _147_Insertion_Sort_List().insertionSortList(root147)
+//print(147)
+
+//let root148 = TreeHelper().convertListToListNode([4,2,1,3])
+//let res148 = _148_Sort_List().sortList(root148)
+//print(res148)
 
 //print(_152_Maximum_Product_Subarray().maxProduct([2,3,-2,4]), 6)
 //print(_152_Maximum_Product_Subarray().maxProduct([-2,0,-1]), 0)
