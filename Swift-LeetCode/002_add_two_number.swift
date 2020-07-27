@@ -7,28 +7,20 @@
 //
 
 import Cocoa
-public class ListNodeNumTwo {
-    public var val: Int
-    public var next: ListNodeNumTwo?
-    public init(_ val: Int) {
-        self.val = val
-        self.next = nil
-    }
-}
 
 
 class _02_add_two_number: NSObject {
     func test() -> Void {
-        let l1 = ListNodeNumTwo(5)
-        let l2 = ListNodeNumTwo(5)
+        let l1 = ListNode(5)
+        let l2 = ListNode(5)
         addTwoNumbers(l1, l2)
         
     }
-    func addTwoNumbers(_ l1: ListNodeNumTwo?, _ l2: ListNodeNumTwo?) -> ListNodeNumTwo? {
-        let dummy:ListNodeNumTwo = ListNodeNumTwo(0)
-        var curr:ListNodeNumTwo = dummy
-        var tmpNode1 : ListNodeNumTwo? = l1
-        var tmpNode2 : ListNodeNumTwo? = l2
+    func addTwoNumbers(_ l1: ListNode?, _ l2: ListNode?) -> ListNode? {
+        let dummy:ListNode = ListNode(0)
+        var curr:ListNode = dummy
+        var tmpNode1 : ListNode? = l1
+        var tmpNode2 : ListNode? = l2
         
         var sum:Int = 0
         while tmpNode1 != nil || tmpNode2 != nil {
@@ -46,7 +38,7 @@ class _02_add_two_number: NSObject {
             sum = res / 10
             res = res % 10
             
-            curr.next = ListNodeNumTwo(res)
+            curr.next = ListNode(res)
             
             if let n = curr.next {
                 curr = n
@@ -54,7 +46,7 @@ class _02_add_two_number: NSObject {
         }
         
         if(sum == 1) {
-            curr.next = ListNodeNumTwo(1)
+            curr.next = ListNode(1)
         }
         return dummy.next;
     }
