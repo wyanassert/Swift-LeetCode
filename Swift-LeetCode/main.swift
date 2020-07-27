@@ -181,9 +181,11 @@ import Foundation
 
 let list61 = TreeHelper().convertListToListNode([1,2,3,4,5])
 let list61_1 = TreeHelper().convertListToListNode([0,1,2])
-let res61 = _061_Rotate_List().rotateRight(list61, 2)
-let res61_1 = _061_Rotate_List().rotateRight(list61_1, 4)
-print(res61)
+let list61_2 = TreeHelper().convertListToListNode([1,2])
+//let res61 = _061_Rotate_List().rotateRight(list61, 2)
+//let res61_1 = _061_Rotate_List().rotateRight(list61_1, 4)
+let res61_2 = _061_Rotate_List().rotateRight(list61_2, 2)
+print(res61_2)
 
 
 //print(_062_Unique_Paths().uniquePaths(3, 2))

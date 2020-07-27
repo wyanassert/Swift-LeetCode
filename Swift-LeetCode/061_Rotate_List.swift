@@ -10,7 +10,7 @@ import Cocoa
 
 class _061_Rotate_List: NSObject {
     func rotateRight(_ head: ListNode?, _ k: Int) -> ListNode? {
-        guard head != nil && head?.next != nil else {
+        guard head != nil && head?.next != nil && k > 0 else {
             return head
         }
         
@@ -25,6 +25,10 @@ class _061_Rotate_List: NSObject {
         }
         
         let leftCount = count - ( k % count)
+        
+        if leftCount == count {
+            return dummy.next
+        }
         
         var lookup2:ListNode? = dummy
         for _ in 0..<leftCount {
