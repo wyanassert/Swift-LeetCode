@@ -125,11 +125,11 @@ import Foundation
 //print(_022_Generate_Parentheses().generateParenthesis(3))
 //print(_022_Generate_Parentheses().generateParenthesis(5))
 
-let l23_1 = TreeHelper().convertListToListNode([1,4,5])
-let l23_2 = TreeHelper().convertListToListNode([1,3,4])
-let l23_3 = TreeHelper().convertListToListNode([2,6])
-let res23 = _023_Merge_k_Sorted_Lists().mergeKLists([l23_1, l23_2, l23_3])
-print(res23)
+//let l23_1 = TreeHelper().convertListToListNode([1,4,5])
+//let l23_2 = TreeHelper().convertListToListNode([1,3,4])
+//let l23_3 = TreeHelper().convertListToListNode([2,6])
+//let res23 = _023_Merge_k_Sorted_Lists().mergeKLists([l23_1, l23_2, l23_3])
+//print(res23)
 
 //var arr26_1 = [1, 2, 2, 3]
 //print(_026_Remove_Duplicates_from_Sorted_Array().removeDuplicates(&arr26_1))
@@ -239,6 +239,10 @@ print(res23)
 //print(arr88_1)
 
 //print(_090_Subsets_2().subsetsWithDup([1, 2, 2]))
+
+let list92 = TreeHelper().convertListToListNode([1,2,3,4,5])
+let res92 = _092_Reverse_Linked_List().reverseBetween(list92, 2, 4)
+print(res92)
 
 //var root94 = TreeHelper().buildTreeWithBreathFirstSearch([1,-1,2,3])
 //print(_094_Binary_Tree_Inorder_Traversal().inorderTraversal(root94))
