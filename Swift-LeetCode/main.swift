@@ -131,6 +131,12 @@ import Foundation
 //let res23 = _023_Merge_k_Sorted_Lists().mergeKLists([l23_1, l23_2, l23_3])
 //print(res23)
 
+let list25 = TreeHelper().convertListToListNode([1,2,3,4,5])
+let list25_1 = TreeHelper().convertListToListNode([1,2,3,4,5])
+let res = _025_Reverse_Nodes_in_k_Group().reverseKGroup(list25, 2)
+let res_1 = _025_Reverse_Nodes_in_k_Group().reverseKGroup(list25_1, 3)
+print(res)
+
 //var arr26_1 = [1, 2, 2, 3]
 //print(_026_Remove_Duplicates_from_Sorted_Array().removeDuplicates(&arr26_1))
 //print(arr26_1)
@@ -240,9 +246,9 @@ import Foundation
 
 //print(_090_Subsets_2().subsetsWithDup([1, 2, 2]))
 
-let list92 = TreeHelper().convertListToListNode([1,2,3,4,5])
-let res92 = _092_Reverse_Linked_List().reverseBetween(list92, 2, 4)
-print(res92)
+//let list92 = TreeHelper().convertListToListNode([1,2,3,4,5])
+//let res92 = _092_Reverse_Linked_List().reverseBetween(list92, 2, 4)
+//print(res92)
 
 //var root94 = TreeHelper().buildTreeWithBreathFirstSearch([1,-1,2,3])
 //print(_094_Binary_Tree_Inorder_Traversal().inorderTraversal(root94))
