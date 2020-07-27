@@ -9,13 +9,7 @@
 import Cocoa
 
 
-class _02_add_two_number: NSObject {
-    func test() -> Void {
-        let l1 = ListNode(5)
-        let l2 = ListNode(5)
-        addTwoNumbers(l1, l2)
-        
-    }
+class _002_add_two_number: NSObject {
     func addTwoNumbers(_ l1: ListNode?, _ l2: ListNode?) -> ListNode? {
         let dummy:ListNode = ListNode(0)
         var curr:ListNode = dummy

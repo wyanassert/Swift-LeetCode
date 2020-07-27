@@ -9,7 +9,11 @@
 import Foundation
 
 //NSLog("%@", _01_two_sum().twoSum([2, 7, 11, 15], 9))
-//_02_add_two_number().test()
+
+
+let res2 = _002_add_two_number().addTwoNumbers(TreeHelper().convertListToListNode([2,4,3]), TreeHelper().convertListToListNode([5,6,4]))
+print(res2)
+
 //print(_03_longest_substring_without_repeat_char().lengthOfLongestSubstring("aabaab!bb"), "3")
 //print(_03_longest_substring_without_repeat_char().lengthOfLongestSubstring(""), "0")
 //print(_03_longest_substring_without_repeat_char().lengthOfLongestSubstring("abcabcbb"), "3")
@@ -252,6 +256,11 @@ import Foundation
 //print(_85_Maximal_Rectangle().maximalRectangle([["1","0","1","0","0"],["1","0","1","1","1"],["1","1","1","1","1"],["1","0","0","1","0"]]))
 //print(_85_Maximal_Rectangle().maximalRectangle([]))
 
+//let list86 = TreeHelper().convertListToListNode([1,4,3,2,5,2])
+//let res86 = _086_Partition_List().partition(list86, 3)
+//print(res86)
+
+
 //var arr88_1 = [1,2,3,0,0,0]
 //var arr88_2 = [2, 5, 6]
 //_88_Merge_Sorted_Array().merge(&arr88_1, 3, arr88_2, 3)
@@ -437,11 +446,11 @@ import Foundation
 //print(_142_Link_List_Cycle_2().detectCycle(head142_3)?.val ?? -1, -1)
 //print(_142_Link_List_Cycle_2().detectCycle(head142_4)?.val ?? -1, -1)
 
-let list143_1 = TreeHelper().convertListToListNode([1,2,3,4])
-let list143_2 = TreeHelper().convertListToListNode([1,2,3,4,5])
-_143_Reorder_List().reorderList(list143_1)
-_143_Reorder_List().reorderList(list143_2)
-print(143)
+//let list143_1 = TreeHelper().convertListToListNode([1,2,3,4])
+//let list143_2 = TreeHelper().convertListToListNode([1,2,3,4,5])
+//_143_Reorder_List().reorderList(list143_1)
+//_143_Reorder_List().reorderList(list143_2)
+//print(143)
 
 //var root144 = TreeHelper().buildTreeWithBreathFirstSearch([1,-1,2,3])
 //print(_144_Binary_Tree_Preorder_Traversal().preorderTraversal(root144))
