@@ -8,18 +8,32 @@
 
 import Cocoa
 
-class _26_Remove_Duplicates_from_Sorted_Array: NSObject {
+class _026_Remove_Duplicates_from_Sorted_Array: NSObject {
     func removeDuplicates(_ nums: inout [Int]) -> Int {
-        var i: Int = 0
-        if(nums.count == 0) {
+        guard nums.count > 0 else {
             return 0
         }
-        for j in 1 ..< nums.count {
-            if(nums[i] != nums[j]) {
-                i+=1
+        var i = 0
+        for j in 1..<nums.count {
+            if nums[i] != nums[j] {
+                i += 1
                 nums[i] = nums[j]
             }
         }
-        return i + 1;
+        return i + 1
     }
+    
+//    func removeDuplicates(_ nums: inout [Int]) -> Int {
+//        var i: Int = 0
+//        if(nums.count == 0) {
+//            return 0
+//        }
+//        for j in 1 ..< nums.count {
+//            if(nums[i] != nums[j]) {
+//                i+=1
+//                nums[i] = nums[j]
+//            }
+//        }
+//        return i + 1;
+//    }
 }

@@ -8,6 +8,17 @@
 
 import Cocoa
 
+//N-ray Tree
+public class Node2 {
+    public var val: Int
+    public var children: [Node2]
+    public init(_ val: Int) {
+        self.val = val
+        self.children = []
+    }
+}
+
+
 public class ListNode {
     public var val: Int
     public var next: ListNode?
