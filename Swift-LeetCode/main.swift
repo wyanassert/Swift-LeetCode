@@ -115,6 +115,17 @@ import Foundation
 //print(_18_4Sum().fourSum([-3,-2,-1,0,0,1,2,3], 0))
 //print(_18_4Sum().fourSum([-5,-4,-3,-2,-1,0,0,1,2,3,4,5], 0))
 
+//let l21_1 = TreeHelper().convertListToListNode([1,2,4])
+//let l21_2 = TreeHelper().convertListToListNode([1,3,4])
+//_021_Merge_Two_Sorted_Lists().mergeTwoLists(l21_1, l21_2)
+//let l21_3 = TreeHelper().convertListToListNode([1])
+//let l21_4 = TreeHelper().convertListToListNode([2])
+//_021_Merge_Two_Sorted_Lists().mergeTwoLists(l21_3, l21_4)
+
+let l23_1 = TreeHelper().convertListToListNode([1,4,5])
+let l23_2 = TreeHelper().convertListToListNode([1,3,4])
+let l23_3 = TreeHelper().convertListToListNode([2,6])
+
 //var arr26_1 = [1, 2, 2, 3]
 //print(_26_Remove_Duplicates_from_Sorted_Array().removeDuplicates(&arr26_1))
 //print(arr26_1)
@@ -200,8 +211,8 @@ import Foundation
 //print(_80_Remove_Duplicates_from_Sorted_Array_2().removeDuplicates(&arr80_2))
 //print(arr80_2)
 
-let head82_1 = TreeHelper().convertListToListNode([1, 2, 3, 3,4,4,5])
-_082_Remove_Duplicates_from_Sorted_List_2().deleteDuplicates(head82_1)
+//let head82_1 = TreeHelper().convertListToListNode([1, 2, 3, 3,4,4,5])
+//_082_Remove_Duplicates_from_Sorted_List_2().deleteDuplicates(head82_1)
 
 //let head83_1 = TreeHelper().convertListToListNode([1, 1, 2])
 //let head83_2 = TreeHelper().convertListToListNode([1, 1, 2, 3, 4])
