@@ -8,6 +8,17 @@
 
 import Cocoa
 
+public class Node3 {
+    public var val: Int
+    public var next: Node3?
+    public var random: Node3?
+    public init(_ val: Int) {
+        self.val = val
+        self.next = nil
+          self.random = nil
+    }
+}
+
 //N-ray Tree
 public class Node2 {
     public var val: Int

@@ -11,8 +11,8 @@ import Foundation
 //NSLog("%@", _01_two_sum().twoSum([2, 7, 11, 15], 9))
 
 
-let res2 = _002_add_two_number().addTwoNumbers(TreeHelper().convertListToListNode([2,4,3]), TreeHelper().convertListToListNode([5,6,4]))
-print(res2)
+//let res2 = _002_add_two_number().addTwoNumbers(TreeHelper().convertListToListNode([2,4,3]), TreeHelper().convertListToListNode([5,6,4]))
+//print(res2)
 
 //print(_03_longest_substring_without_repeat_char().lengthOfLongestSubstring("aabaab!bb"), "3")
 //print(_03_longest_substring_without_repeat_char().lengthOfLongestSubstring(""), "0")
@@ -419,6 +419,10 @@ print(res2)
 //print(_135_Candy().candy([1,2,3]), 6)
 //print(_135_Candy().candy([1,2,1,3,3]), 7)
 //print(_135_Candy().candy([3,2,1]), 6)
+
+let list138 = _138_Copy_List_with_Random_Pointer().createTest()
+let res138 = _138_Copy_List_with_Random_Pointer().copyRandomList(list138)
+print(res138)
 
 //print(_139_Word_Break().wordBreak("leetcode", ["leet", "code"]), true)
 //print(_139_Word_Break().wordBreak("applepenapple", ["apple", "pen"]), true)
