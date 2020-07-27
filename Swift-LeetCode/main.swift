@@ -122,9 +122,9 @@ import Foundation
 //let l21_4 = TreeHelper().convertListToListNode([2])
 //_021_Merge_Two_Sorted_Lists().mergeTwoLists(l21_3, l21_4)
 
-let l23_1 = TreeHelper().convertListToListNode([1,4,5])
-let l23_2 = TreeHelper().convertListToListNode([1,3,4])
-let l23_3 = TreeHelper().convertListToListNode([2,6])
+//let l23_1 = TreeHelper().convertListToListNode([1,4,5])
+//let l23_2 = TreeHelper().convertListToListNode([1,3,4])
+//let l23_3 = TreeHelper().convertListToListNode([2,6])
 
 //var arr26_1 = [1, 2, 2, 3]
 //print(_26_Remove_Duplicates_from_Sorted_Array().removeDuplicates(&arr26_1))
@@ -466,3 +466,7 @@ let l23_3 = TreeHelper().convertListToListNode([2,6])
 
 //print(_279_Perfect_Squares().numSquares(12), 3)
 //print(_279_Perfect_Squares().numSquares(13), 2)
+
+var list283_1 = [0,1,0,3,12]
+_283_Move_Zeroes().moveZeroes(&list283_1)
+print(list283_1, [1,3,12,0,0])
