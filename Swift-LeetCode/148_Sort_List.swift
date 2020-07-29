@@ -9,6 +9,9 @@
 import Cocoa
 
 class _148_Sort_List: NSObject {
+//    - [ ] 要求 O(n log n) 时间, 因此不能直接遍历然后插入, 这种方法最差是 O(n^2)时间
+//    - [ ] 用二分法来做,  利用快慢指针从中断开, 然后递归继续断, 最后两两归并
+//    - [ ] 归并使用双指针, 逐一往后移动, 先把较小的节点合并个Dummy, 返回 Dummy.next
     func merge(_ l1: ListNode?, _ l2: ListNode?) -> ListNode? {
         guard l1 != nil && l2 != nil else {
             if l1 == nil {
