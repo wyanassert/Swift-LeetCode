@@ -181,9 +181,9 @@ import Foundation
 //print(_047_Permutations_2().permuteUnique([1]))
 //print(_047_Permutations_2().permuteUnique([1,1,3]))
 
-var martix48 = [[1,2,3],[4,5,6],[7,8,9]];
-_048_Rotate_Image().rotate(&martix48)
-print(martix48)
+//var martix48 = [[1,2,3],[4,5,6],[7,8,9]];
+//_048_Rotate_Image().rotate(&martix48)
+//print(martix48)
 
 //print(_053_Maximum_Subarray().maxSubArray([-2,1,-3,4,-1,2,1,-5,4]), 6)
 
@@ -423,6 +423,10 @@ print(martix48)
 //print(_135_Candy().candy([1,2,3]), 6)
 //print(_135_Candy().candy([1,2,1,3,3]), 7)
 //print(_135_Candy().candy([3,2,1]), 6)
+
+//print(_136_Single_Number().singleNumber([1,2,2,3,3]), 1)
+//print(_136_Single_Number().singleNumber([1]),1)
+//print(_136_Single_Number().singleNumber([5,3,4,3,5]),4)
 
 //let list138 = _138_Copy_List_with_Random_Pointer().createTest()
 //let res138 = _138_Copy_List_with_Random_Pointer().copyRandomList(list138)

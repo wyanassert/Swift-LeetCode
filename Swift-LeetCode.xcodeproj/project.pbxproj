@@ -117,6 +117,7 @@
 		93CD425F24CF0799008C72B5 /* 086_Partition_List.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93CD425E24CF0799008C72B5 /* 086_Partition_List.swift */; };
 		93CD426124CF0DCD008C72B5 /* 138_Copy_List_with_Random_Pointer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93CD426024CF0DCD008C72B5 /* 138_Copy_List_with_Random_Pointer.swift */; };
 		93CD426324D156B8008C72B5 /* 048_Rotate_Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93CD426224D156B8008C72B5 /* 048_Rotate_Image.swift */; };
+		93CD426524D161F0008C72B5 /* 136_Single_Number.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93CD426424D161F0008C72B5 /* 136_Single_Number.swift */; };
 		93EE2C2A226734CA00244540 /* 009_Palindrome_Number.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93EE2C29226734CA00244540 /* 009_Palindrome_Number.swift */; };
 		93EE2C2C22673AC300244540 /* 010_Regular_Expression_Matching.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93EE2C2B22673AC300244540 /* 010_Regular_Expression_Matching.swift */; };
 		93EE2C2E2268290C00244540 /* 011_Container_With_Most_Water.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93EE2C2D2268290C00244540 /* 011_Container_With_Most_Water.swift */; };
@@ -246,6 +247,7 @@
 		93CD425E24CF0799008C72B5 /* 086_Partition_List.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 086_Partition_List.swift; sourceTree = "<group>"; };
 		93CD426024CF0DCD008C72B5 /* 138_Copy_List_with_Random_Pointer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 138_Copy_List_with_Random_Pointer.swift; sourceTree = "<group>"; };
 		93CD426224D156B8008C72B5 /* 048_Rotate_Image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 048_Rotate_Image.swift; sourceTree = "<group>"; };
+		93CD426424D161F0008C72B5 /* 136_Single_Number.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 136_Single_Number.swift; sourceTree = "<group>"; };
 		93EE2C29226734CA00244540 /* 009_Palindrome_Number.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 009_Palindrome_Number.swift; sourceTree = "<group>"; };
 		93EE2C2B22673AC300244540 /* 010_Regular_Expression_Matching.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 010_Regular_Expression_Matching.swift; sourceTree = "<group>"; };
 		93EE2C2D2268290C00244540 /* 011_Container_With_Most_Water.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 011_Container_With_Most_Water.swift; sourceTree = "<group>"; };
@@ -370,6 +372,7 @@
 				931B1AC724C99F3800E79991 /* 129_Sum_Root_to_Leaf_Numbers.swift */,
 				93CD422C24CC2807008C72B5 /* 134_Gas_Station.swift */,
 				93CD422E24CC2DB2008C72B5 /* 135_Candy.swift */,
+				93CD426424D161F0008C72B5 /* 136_Single_Number.swift */,
 				93CD426024CF0DCD008C72B5 /* 138_Copy_List_with_Random_Pointer.swift */,
 				93CD423024CC3464008C72B5 /* 139_Word_Break.swift */,
 				93CD423224CC3485008C72B5 /* 140_Word_Break_2.swift */,
@@ -507,6 +510,7 @@
 				931B1A7024C694C100E79991 /* 066_Plus_One.swift in Sources */,
 				931B1AD824C9D7E300E79991 /* 047_Permutations_2.swift in Sources */,
 				931B1AA824C85CCE00E79991 /* 100_Same_Tree.swift in Sources */,
+				93CD426524D161F0008C72B5 /* 136_Single_Number.swift in Sources */,
 				93CD424D24CE8D1C008C72B5 /* 590_N_ary_Tree_Postorder_Traversal.swift in Sources */,
 				931B1AB224C87B4200E79991 /* 145_Binary_Tree_Inorder_Traversal.swift in Sources */,
 				931B1AF424CB1E4800E79991 /* 095_Unique_Binary_Search_Trees_2.swift in Sources */,
