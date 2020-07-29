@@ -506,6 +506,9 @@ import Foundation
 //print(_162_Find_Peak_Element().findPeakElement([]))
 //print(_162_Find_Peak_Element().findPeakElement([0,1,3]))
 
+print(_164_Maximum_Gap().maximumGap([3,6,9,1]), 3)
+print(_164_Maximum_Gap().maximumGap([3]), 0)
+
 //print(_188_Best_Time_to_Buy_and_Sell_Stock().maxProfit(2, [2,1,2,0,1]))
 //print(_188_Best_Time_to_Buy_and_Sell_Stock().maxProfit(2, [3,5,0,3,1,4]))
 //print(_188_Best_Time_to_Buy_and_Sell_Stock().maxProfit(2, [3,3,5,0,0,3,1,4]))
