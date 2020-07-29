@@ -428,6 +428,10 @@ import Foundation
 //print(_136_Single_Number().singleNumber([1]),1)
 //print(_136_Single_Number().singleNumber([5,3,4,3,5]),4)
 
+//print(_137_Single_Number_2().singleNumber([2,1,3,2,2,3,3]), 1)
+//print(_137_Single_Number_2().singleNumber([1]),1)
+//print(_137_Single_Number_2().singleNumber([5,5,3,3,4,3,5]),4)
+
 //let list138 = _138_Copy_List_with_Random_Pointer().createTest()
 //let res138 = _138_Copy_List_with_Random_Pointer().copyRandomList(list138)
 //print(res138)
