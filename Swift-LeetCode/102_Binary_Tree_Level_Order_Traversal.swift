@@ -15,16 +15,16 @@ class _102_Binary_Tree_Level_Order_Traversal: NSObject {
         var results : [[Int]] = []
         
         var queue: [(TreeNode, Int)] = [(root, 0)]
-        while let pair: (node: TreeNode, index: Int) = queue.first {
-            if results.count <= pair.index {
+        while let (node, index) = queue.first {
+            if results.count <= index {
                 results.append([Int]())
             }
-            results[pair.index].append(pair.node.val)
-            if let left = pair.node.left {
-                queue.append((left, pair.index + 1))
+            results[index].append(node.val)
+            if let left = node.left {
+                queue.append((left, index + 1))
             }
-            if let right = pair.node.right {
-                queue.append((right, pair.index + 1))
+            if let right = node.right {
+                queue.append((right, index + 1))
             }
             queue.removeFirst()
         }
