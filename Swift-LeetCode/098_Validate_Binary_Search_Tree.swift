@@ -9,18 +9,11 @@
 import Cocoa
 
 class _098_Validate_Binary_Search_Tree: NSObject {
-    func traval(_ root: TreeNode?, _ min: Int, _ max: Int) -> Bool {
+    func traversal(_ root: TreeNode?, _ left: Int, _ right: Int) -> Bool {
         guard let root = root else { return true }
-        
-        if root.val > min && root.val < max {
-            return traval(root.left, min, root.val) && traval(root.right, root.val, max)
-        } else {
-            return false
-        }
+        return root.val > left && root.val < right && traversal(root.left, left, root.val) && traversal(root.right, root.val, right)
     }
-    
     func isValidBST(_ root: TreeNode?) -> Bool {
-        guard let root = root else { return true }
-        return traval(root, Int.min, Int.max)
+        return traversal(root, Int.min, Int.max)
     }
 }
