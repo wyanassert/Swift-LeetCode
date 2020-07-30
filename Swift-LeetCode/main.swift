@@ -519,9 +519,12 @@ import Foundation
 //print(_191_Number_of_1_Bits().hammingWeight(0b00000000000000000000000010000000))
 //print(_191_Number_of_1_Bits().hammingWeight(0b11111111111111111111111111111101))
 
-let list206 = TreeHelper().convertListToListNode([1,2,3,4,5])
-let res206 = _206_Reverse_Linked_List().reverseList(list206)
-print(res206?.val as Any)
+//let list206 = TreeHelper().convertListToListNode([1,2,3,4,5])
+//let res206 = _206_Reverse_Linked_List().reverseList(list206)
+//print(res206?.val as Any)
+
+print(_215_Kth_Largest_Element_in_an_Array().findKthLargest([3,2,1,5,6,4], 2))
+print(_215_Kth_Largest_Element_in_an_Array().findKthLargest([3,2,3,1,2,4,5,5,6], 4))
 
 //print(_227_Basic_Calculation_2().calculate("3+2*2 + 1"), 7)
 //print(_227_Basic_Calculation_2().calculate(" 3/2 "), 1)
