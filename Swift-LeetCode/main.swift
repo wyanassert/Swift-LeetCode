@@ -321,9 +321,10 @@ import Foundation
 //var root103 = TreeHelper().buildTreeWithBreathFirstSearch([3, 9, 20, -1, -1, 15, 7])
 //print(_103_Binary_Tree_Zigzag_Level_Order_Traversal().zigzagLevelOrder(root103))
 
-//var root104 = TreeHelper().buildTreeWithBreathFirstSearch([3, 9, 20, -1, -1, 15, 7])
-//var root104 = TreeHelper().buildTreeWithBreathFirstSearch([1, 2, 3, -1, 4, -1, 5])
-//print(_104_Maximum_Depth_of_Binary_Tree().maxDepth(root104))
+var root104 = TreeHelper().buildTreeWithBreathFirstSearch([3, 9, 20, -1, -1, 15, 7])
+var root104_1 = TreeHelper().buildTreeWithBreathFirstSearch([1, 2, 3, -1, 4, -1, 5])
+print(_104_Maximum_Depth_of_Binary_Tree().maxDepth(root104), 3)
+print(_104_Maximum_Depth_of_Binary_Tree().maxDepth(root104_1), 3)
 
 //var root105 = _105_Construct_Binary_Tree_from_Preorder_and_Inorder_Traversal().buildTree([3, 9, 20, 15, 7], [9,3,15,20,7])
 //print(root105?.val as Any)
