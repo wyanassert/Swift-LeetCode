@@ -293,6 +293,9 @@ import Foundation
 //var root98_2 = TreeHelper().buildTreeWithBreathFirstSearch([5,1,4,-1,-1,3,6])
 //print(_098_Validate_Binary_Search_Tree().isValidBST(root98_1))
 //print(_098_Validate_Binary_Search_Tree().isValidBST(root98_2))
+var root98_3 = TreeHelper().buildTreeWithBreathFirstSearch([3,1,5,0,2,4,6])
+print(_098_Validate_Binary_Search_Tree().isValidBST(root98_3))
+
 
 //let root99 = TreeHelper().buildTreeWithBreathFirstSearch([1, 3, -1, -1, 2])
 //_099_Recover_Binary_Search_Tree().recoverTree(root99)
@@ -557,6 +560,6 @@ import Foundation
 //print(_279_Perfect_Squares().numSquares(12), 3)
 //print(_279_Perfect_Squares().numSquares(13), 2)
 
-var list283_1 = [0,1,0,3,12]
-_283_Move_Zeroes().moveZeroes(&list283_1)
-print(list283_1, [1,3,12,0,0])
+//var list283_1 = [0,1,0,3,12]
+//_283_Move_Zeroes().moveZeroes(&list283_1)
+//print(list283_1, [1,3,12,0,0])
