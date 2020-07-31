@@ -292,9 +292,9 @@ import Foundation
 //var root98_1 = TreeHelper().buildTreeWithBreathFirstSearch([2,1,3])
 //var root98_2 = TreeHelper().buildTreeWithBreathFirstSearch([5,1,4,-1,-1,3,6])
 //print(_098_Validate_Binary_Search_Tree().isValidBST(root98_1))
-//print(_098_Validate_Binary_Search_Tree().isValidBST(root98_2))
-var root98_3 = TreeHelper().buildTreeWithBreathFirstSearch([3,1,5,0,2,4,6])
-print(_098_Validate_Binary_Search_Tree().isValidBST(root98_3))
+////print(_098_Validate_Binary_Search_Tree().isValidBST(root98_2))
+//var root98_3 = TreeHelper().buildTreeWithBreathFirstSearch([3,1,5,0,2,4,6])
+//print(_098_Validate_Binary_Search_Tree().isValidBST(root98_3))
 
 
 //let root99 = TreeHelper().buildTreeWithBreathFirstSearch([1, 3, -1, -1, 2])
@@ -563,3 +563,9 @@ print(_098_Validate_Binary_Search_Tree().isValidBST(root98_3))
 //var list283_1 = [0,1,0,3,12]
 //_283_Move_Zeroes().moveZeroes(&list283_1)
 //print(list283_1, [1,3,12,0,0])
+
+
+//print(_394_Decode_String().decodeString("3[a]2[bc]") == "aaabcbc")
+//print(_394_Decode_String().decodeString("3[a2[c]]") == "accaccacc")
+//print(_394_Decode_String().decodeString("2[abc]3[cd]ef") == "abcabccdcdcdef")
+//print(_394_Decode_String().decodeString("abc3[cd]xyz") == "abccdcdcdxyz")
