@@ -564,6 +564,10 @@ import Foundation
 //_283_Move_Zeroes().moveZeroes(&list283_1)
 //print(list283_1, [1,3,12,0,0])
 
+//print(_300_Longest_Increasing_Subsequence().lengthOfLIS([10,9,2,5,3,7,101,18]) == 4)
+//print(_300_Longest_Increasing_Subsequence().lengthOfLIS([2,1]) == 1)
+//print(_300_Longest_Increasing_Subsequence().lengthOfLIS([1]) == 1)
+
 
 //print(_394_Decode_String().decodeString("3[a]2[bc]") == "aaabcbc")
 //print(_394_Decode_String().decodeString("3[a2[c]]") == "accaccacc")
