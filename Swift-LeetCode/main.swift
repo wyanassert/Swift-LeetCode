@@ -530,7 +530,7 @@ import Foundation
 //print(_188_Best_Time_to_Buy_and_Sell_Stock().maxProfit(2, [1,2,3,4,5]))
 //print(_188_Best_Time_to_Buy_and_Sell_Stock().maxProfit(2, [7,6,4,3,1]))
 
-print(String(_190_Reverse_Bits().reverseBits(0b10), radix: 2))
+//print(String(_190_Reverse_Bits().reverseBits(0b10), radix: 2))
 
 //print(_191_Number_of_1_Bits().hammingWeight(0b00000000000000000000000000001011))
 //print(_191_Number_of_1_Bits().hammingWeight(0b00000000000000000000000010000000))
