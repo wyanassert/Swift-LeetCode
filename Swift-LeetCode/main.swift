@@ -152,6 +152,9 @@ import Foundation
 //var arr27_1 = [3, 2, 2, 3]
 //print(_27_Remove_Element().removeElement(&arr27_1, 3))
 
+print(_033_Search_in_Rotated_Sorted_Array().search([4,5,6,7,0,1,2], 0) == 4)
+print(_033_Search_in_Rotated_Sorted_Array().search([4,5,6,7,0,1,2], 3) == -1)
+
 //print(_34_Find_First_and_Last_Position_of_Element_in_Sorted_Array().searchRange([5,7,7,8,8,10], 8))
 //print(_34_Find_First_and_Last_Position_of_Element_in_Sorted_Array().searchRange([5,7,7,8,8,10], 6))
 
