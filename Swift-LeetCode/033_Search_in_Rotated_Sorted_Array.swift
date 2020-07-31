@@ -16,21 +16,20 @@ class _033_Search_in_Rotated_Sorted_Array: NSObject {
             return nums[left] == target ? left : -1
         } else {
             let mid = (left + right)/2
-            if nums[left] < nums[right] {
-                if nums[mid] == target {
-                    return mid
-                } else if nums[mid] < target {
+            if nums[mid] == target {
+                return mid
+            } else if nums[left] <= nums[mid] {//左边有序
+                if target >= nums[left] && target <= nums[mid] { //在有序区间
+                    return partition(nums, target, left, mid - 1)
+                } else {
+                    return partition(nums, target, mid + 1, right)
+                }
+            } else {//右边有序
+                if target >= nums[mid] && target <= nums[right] { //在有序区间
                     return partition(nums, target, mid + 1, right)
                 } else {
                     return partition(nums, target, left, mid - 1)
                 }
-            } else {
-                if nums[mid] == target {
-                    return mid
-                }
-                let left = partition(nums, target, left, mid - 1)
-                let right = partition(nums, target, mid + 1, right)
-                return max(left, right)
             }
         }
     }

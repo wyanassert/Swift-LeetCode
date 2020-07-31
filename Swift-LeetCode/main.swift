@@ -152,6 +152,7 @@ import Foundation
 //var arr27_1 = [3, 2, 2, 3]
 //print(_27_Remove_Element().removeElement(&arr27_1, 3))
 
+print(_033_Search_in_Rotated_Sorted_Array().search([3,1], 1) == 1)
 print(_033_Search_in_Rotated_Sorted_Array().search([4,5,6,7,0,1,2], 0) == 4)
 print(_033_Search_in_Rotated_Sorted_Array().search([4,5,6,7,0,1,2], 3) == -1)
 
