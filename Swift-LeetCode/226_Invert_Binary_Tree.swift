@@ -9,7 +9,7 @@
 import Cocoa
 
 class _226_Invert_Binary_Tree: NSObject {
-    
+//            - [ ] 太简单 递归非递归都行
 //  非递归写法
     func invertTree(_ root: TreeNode?) -> TreeNode? {
         guard let root = root else { return nil }

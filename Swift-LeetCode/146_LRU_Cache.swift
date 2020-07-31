@@ -9,7 +9,12 @@
 import Cocoa
 
 class _146_LRU_Cache: NSObject {
-    
+//    - [ ] 这一题 主要需要自己构建一个双向列表, 用来存储缓存的数据, 在 Cache 中建立 head 和 tail, 然后在 head 和 tail 之间维护这个双向列表
+//    - [ ] 双向列表需要一个 add 方法和一个 remove 方法, add 方法首先将新 node插入到 head 和 head.nex 之间, remove 把 node 从 node.next 以及node.pre 之间拿掉
+//    - [ ] 需要一个 Map 来维持缓存, 即达到 O(1)级别的存取效率, 每次 get 时候把 node 先 remove 再 add, 找不到就返回-1, put 的时候先根据 key 看找不找得到缓存,
+//        - [ ] 如果找得到把对应的 node 暂时从双向列表中删掉, 之后再从新 add 让它处在第一位,
+//        - [ ] 如果找不到缓存就要判断缓存池有没有满, 如果满了就把 tail.pre remove 掉, 然后根据 tail.pre.key 从缓存池删掉对应项
+//    - [ ] 简而言之, 双向链表是为了实现 LRU同时兼顾存取效率, 缓存是为了实现快速取值
     class LeastRecentUseNode {
         
         var value: Int

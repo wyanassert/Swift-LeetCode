@@ -9,6 +9,7 @@
 import Cocoa
 
 class _958_Check_Completeness_of_a_Binary_Tree: NSObject {
+//            - [ ] 层序遍历, 在遇到子节点为空后 不该在遇到有子节点的节点
     func isCompleteTree(_ root: TreeNode?) -> Bool {
         var queue: [TreeNode?] = []
         queue.append(root)

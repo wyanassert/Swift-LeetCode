@@ -9,7 +9,7 @@
 import Cocoa
 
 class _025_Reverse_Nodes_in_k_Group: NSObject {
-    
+//            - [ ] 设置两个指针, 一个start在 0, 一个end走到下一个 k 的位置,  用一个函数翻转 start 到 k 之间的指针, 并返回最后一个节点,  函数返回后 然后前一个节点的 next 指向最后一个节点即可
     func reverseBetween(_ start: ListNode?, _ end: ListNode?) {
         let p = start
         var flag = start

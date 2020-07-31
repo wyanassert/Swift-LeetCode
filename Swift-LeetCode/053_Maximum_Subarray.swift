@@ -9,6 +9,9 @@
 import Cocoa
 
 class _053_Maximum_Subarray: NSObject {
+//    - [ ] 动态规划
+//        - [ ] dp[n] = max(num[n], num[n] + dp[n-1])
+//        - [ ] 可以简化 用两个变量来模拟 dp 数组
     func maxSubArray(_ nums: [Int]) -> Int {
         var dp = [Int]()
         

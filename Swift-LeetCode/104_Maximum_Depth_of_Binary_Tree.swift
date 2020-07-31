@@ -11,7 +11,7 @@ import Cocoa
 
 
 class _104_Maximum_Depth_of_Binary_Tree: NSObject {
-    
+//            - [ ] func (root)( if root==nil return 0 else return max(travel(root.left), travel(root.right)) + 1)
     func travel(_ root: TreeNode?) -> Int {
         guard let root = root else { return 0 }
         return max(travel(root.left), travel(root.right)) + 1

@@ -9,6 +9,9 @@
 import Cocoa
 
 class _215_Kth_Largest_Element_in_an_Array: NSObject {
+//    - [ ] 直接调用快排, 然后输出 nums[n-k]
+//    - [ ] 快排有些浪费, 自己改造快排, 当 i == n-k 直接输出就好
+//    - [ ] TestCase 故意安排了快排最遭的情况, 在开始处理时候 把最左边的元素跟中间一个随机元素交换来避免
     func partition(_ nums: inout [Int], _ left: Int, _ right: Int, _ find: Int) -> Int {
         if left == right {
             return nums[left]

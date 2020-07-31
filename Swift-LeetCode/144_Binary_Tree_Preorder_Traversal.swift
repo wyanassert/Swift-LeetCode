@@ -9,6 +9,10 @@
 import Cocoa
 
 class _144_Binary_Tree_Preorder_Traversal: NSObject {
+    
+//    - [ ] 1. 递归
+//    - [ ] 2. 利用栈非递归, 出栈, 先输出, 然后右节点入栈, 然后左节点入栈
+//    - [ ] 3. 莫里斯遍历
     func preorderTraversal(_ root: TreeNode?) -> [Int] {
         guard let root = root else {
             return []

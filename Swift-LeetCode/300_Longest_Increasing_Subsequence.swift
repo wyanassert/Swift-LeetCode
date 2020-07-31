@@ -31,7 +31,11 @@ class _300_Longest_Increasing_Subsequence: NSObject {
         }
         return res
     }
-//  首先使用动态规划, 对于 dp[n]来说, 需要遍历 0..<n 来确定 dp[n]的大小, 所以复杂度是 O(n^2)
+//  首先使用动态规划, 对226于 dp[n]来说, 需要遍历 0..<n 来确定 dp[n]的大小, 所以复杂度是 O(n^2)
+//    - [ ] 维护 dp 数组
+//        - [ ] 循环i in 0..<n, 来决定 dp[i]的值
+//        - [ ] 循环 j in 0..<I, 更新 dp[i]的值, 当 nums[j] < nums[i] 的时候, dp[i] = max(dp[i], dp[j] +1)
+//    - [ ] 还有一个在第二层循环用二分查找来简化复杂度为O(nLogN)的算法
 //    func lengthOfLIS(_ nums: [Int]) -> Int {
 //
 //        var dp:[Int] = Array(repeating: 1, count: nums.count)

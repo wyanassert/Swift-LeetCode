@@ -9,6 +9,8 @@
 import Cocoa
 
 class _142_Link_List_Cycle_2: NSObject {
+//    - [ ] 找链表的环, 还是快慢指针同时走
+//    - [ ] 快指针走到跟慢指针相遇停止, 慢指针回头节点, 然后一起移动, 相遇时返回相遇的节点即可
     func detectCycle(_ head: ListNode?) -> ListNode? {
         guard let _ = head?.next else {
             return nil

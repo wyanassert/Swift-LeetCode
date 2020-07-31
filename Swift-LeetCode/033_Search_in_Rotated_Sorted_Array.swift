@@ -9,6 +9,17 @@
 import Cocoa
 
 class _033_Search_in_Rotated_Sorted_Array: NSObject {
+//    - [ ] 递归写法,
+//        - [ ] 若中间等于 target, 直接返回
+//        - [ ] 若不等,
+//            - [ ] 如果nums[left]小于等于(考虑到 mid==left)nums[mid], 说明左区间是连续的,
+//                - [ ] 判断 target 的值是否在nums[left]和 nums[mid]之前
+//                    - [ ] 在的话用左区间
+//                    - [ ] 不在用右区间
+//            - [ ] 如果 nums[left] > nums[mid], 说明连续区间在右边
+//                - [ ] 判断 target 的值是否在nums[mid]和 nums[right]之前
+//                    - [ ] 在的话用右区间
+//                    - [ ] 不在用左间
     func search(_ nums: [Int], _ target: Int) -> Int {
         
         var left = 0, right = nums.count - 1

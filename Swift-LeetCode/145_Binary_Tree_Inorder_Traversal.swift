@@ -9,6 +9,8 @@
 import Cocoa
 
 class _145_Binary_Tree_Inorder_Traversal: NSObject {
+//    - [ ] 标准的后序遍历, 基本跟中序遍历一样
+//    - [ ] BFS 时候, 先判断当前节点是否 visit 或者是叶子节点, 满足的话直接输出同时 contine(千万不要写成 break) 先当前节点(不要不小心写成 root)标记 Visited入栈, 然后右子树入栈, 然后左节点入栈,后入栈的会先处理
     func postorderTraversal(_ root: TreeNode?) -> [Int] {
         guard let root = root else {
             return []
