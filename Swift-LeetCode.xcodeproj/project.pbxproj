@@ -28,6 +28,7 @@
 		9312FB7F24D4087900F6515A /* 199_Binary_Tree_Right_Side_View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9312FB7E24D4087900F6515A /* 199_Binary_Tree_Right_Side_View.swift */; };
 		9312FB8124D4103F00F6515A /* 190_Reverse_Bits.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9312FB8024D4103F00F6515A /* 190_Reverse_Bits.swift */; };
 		9312FB8324D418B400F6515A /* 033_Search_in_Rotated_Sorted_Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9312FB8224D418B400F6515A /* 033_Search_in_Rotated_Sorted_Array.swift */; };
+		9312FB8524D43DC900F6515A /* 151_Reverse_Words_in_a_String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9312FB8424D43DC900F6515A /* 151_Reverse_Words_in_a_String.swift */; };
 		931B1A6A24C56D2D00E79991 /* 027_Remove_Element.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931B1A6924C56D2D00E79991 /* 027_Remove_Element.swift */; };
 		931B1A6C24C570D700E79991 /* 026_Remove_Duplicates_from_Sorted_Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931B1A6B24C570D700E79991 /* 026_Remove_Duplicates_from_Sorted_Array.swift */; };
 		931B1A6E24C57F0100E79991 /* 080_Remove_Duplicates_from_Sorted_Array_2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931B1A6D24C57F0100E79991 /* 080_Remove_Duplicates_from_Sorted_Array_2.swift */; };
@@ -172,6 +173,7 @@
 		9312FB7E24D4087900F6515A /* 199_Binary_Tree_Right_Side_View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 199_Binary_Tree_Right_Side_View.swift; sourceTree = "<group>"; };
 		9312FB8024D4103F00F6515A /* 190_Reverse_Bits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 190_Reverse_Bits.swift; sourceTree = "<group>"; };
 		9312FB8224D418B400F6515A /* 033_Search_in_Rotated_Sorted_Array.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 033_Search_in_Rotated_Sorted_Array.swift; sourceTree = "<group>"; };
+		9312FB8424D43DC900F6515A /* 151_Reverse_Words_in_a_String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 151_Reverse_Words_in_a_String.swift; sourceTree = "<group>"; };
 		931B1A6924C56D2D00E79991 /* 027_Remove_Element.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 027_Remove_Element.swift; sourceTree = "<group>"; };
 		931B1A6B24C570D700E79991 /* 026_Remove_Duplicates_from_Sorted_Array.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 026_Remove_Duplicates_from_Sorted_Array.swift; sourceTree = "<group>"; };
 		931B1A6D24C57F0100E79991 /* 080_Remove_Duplicates_from_Sorted_Array_2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 080_Remove_Duplicates_from_Sorted_Array_2.swift; sourceTree = "<group>"; };
@@ -414,6 +416,7 @@
 				9312FB7224D2C08200F6515A /* 146_LRU_Cache.swift */,
 				93CD425824CEEC36008C72B5 /* 147_Insertion_Sort_List.swift */,
 				93CD425624CED8EE008C72B5 /* 148_Sort_List.swift */,
+				9312FB8424D43DC900F6515A /* 151_Reverse_Words_in_a_String.swift */,
 				931B1AEB24CB0BA600E79991 /* 152_Maximum_Product_Subarray.swift */,
 				931B1A7D24C6EFB400E79991 /* 153_Find_Minimum_in_Rotated_Sorted_Array.swift */,
 				931B1A7F24C6EFD400E79991 /* 154_Find_Minimum_in_Rotated_Sorted_Array_2.swift */,
@@ -599,6 +602,7 @@
 				931B1A9C24C838B300E79991 /* 105_Construct_Binary_Tree_from_Preorder_and_Inorder_Traversal.swift in Sources */,
 				9312FB7724D3BE3600F6515A /* 394_Decode_String.swift in Sources */,
 				931B1AB024C87B0C00E79991 /* 144_Binary_Tree_Preorder_Traversal.swift in Sources */,
+				9312FB8524D43DC900F6515A /* 151_Reverse_Words_in_a_String.swift in Sources */,
 				931B1AE024CAD5A500E79991 /* 188_Best_Time_to_Buy_and_Sell_Stock.swift in Sources */,
 				93CD424724CDA2DD008C72B5 /* 023_Merge_k_Sorted_Lists.swift in Sources */,
 				931B1ACC24C9BDF900E79991 /* 039_Combination_Sum.swift in Sources */,
