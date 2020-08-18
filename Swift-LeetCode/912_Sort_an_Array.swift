@@ -9,44 +9,56 @@
 import Cocoa
 
 class _912_Sort_an_Array: NSObject {
-//  双路快排
-    func quickSort(_ array: inout [Int], _ left: Int, _ right: Int) {
-        guard left < right else {
-            return
-        }
-        
-//        let random = Int.random(in: left...right)
-//        array.swapAt(left, random)
-        
-        let key = array[left]
-        var i = left
-        var j = right
-        
-        while i < j {
-            while i < j && array[j] >= key {
-                j -= 1
-            }
-            array.swapAt(i, j)
-            
-            while i < j && array[i] <= key {
-                i += 1
-            }
-            array.swapAt(i, j)
-        }
-        
     
-        quickSort(&array, left, i - 1)
-        quickSort(&array, i + 1, right)
-    }
     
+//    简单写法, 但是时间会长很多
     func sortArray(_ nums: [Int]) -> [Int] {
-        guard nums.count > 1 else {
-            return nums
-        }
-        var array = nums
-        quickSort(&array, 0, array.count-1)
-        return array
+        guard nums.count > 0 else { return nums }
+        let key = nums.first!
+        let left = nums.filter {$0 < key}
+        let middle = nums.filter {$0 == key}
+        let right = nums.filter {$0 > key}
+        return sortArray(left) + middle + sortArray(right)
     }
+    
+//  双路快排
+//    func quickSort(_ array: inout [Int], _ left: Int, _ right: Int) {
+//        guard left < right else {
+//            return
+//        }
+//
+////        let random = Int.random(in: left...right)
+////        array.swapAt(left, random)
+//
+//        let key = array[left]
+//        var i = left
+//        var j = right
+//
+//        while i < j {
+//            while i < j && array[j] >= key {
+//                j -= 1
+//            }
+//            array.swapAt(i, j)
+//
+//            while i < j && array[i] <= key {
+//                i += 1
+//            }
+//            array.swapAt(i, j)
+//        }
+//
+//
+//        quickSort(&array, left, i - 1)
+//        quickSort(&array, i + 1, right)
+//    }
+//
+//    func sortArray(_ nums: [Int]) -> [Int] {
+//        guard nums.count > 1 else {
+//            return nums
+//        }
+//        var array = nums
+//        quickSort(&array, 0, array.count-1)
+//        return array
+//    }
 
 //    选择排序 Time Limit Exceeded 10/11
 //    func sortArray(_ nums: [Int]) -> [Int] {
